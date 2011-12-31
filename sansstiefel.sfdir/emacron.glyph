@@ -4,16 +4,16 @@ Encoding: 275 275 254
 Width: 450
 VWidth: 0
 Flags: W
-HStem: 0 21<220 230> 520 20<220 231.5> 599 90<105 435>
+HStem: 0 21<220 230> 520 20<220 231.5> 599 90<60 390>
 VStem: 60 90<158 202 315 382>
 LayerCount: 2
 Fore
 SplineSet
-105 599 m 1
- 105 689 l 1
- 435 689 l 1
- 435 599 l 1
- 105 599 l 1
+60 599 m 5
+ 60 689 l 5
+ 390 689 l 5
+ 390 599 l 5
+ 60 599 l 5
 EndSplineSet
 Refer: 5 101 N 1 0 0 1 0 0 3
 EndChar

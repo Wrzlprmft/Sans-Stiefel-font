@@ -10,6 +10,7 @@ LayerCount: 2
 Fore
 Refer: 128 33 N 1 0 0 1 209 0 2
 Refer: 128 33 N 1 0 0 1 0 0 2
+LCarets2: 1 0 
 Ligature2: "'liga' Ligaturen-1" exclam exclam
 Ligature2: "'liga' Ligaturen-1" exclam exclam
 EndChar
