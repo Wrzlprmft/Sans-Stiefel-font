@@ -1,0 +1,195 @@
+\documentclass[a4paper, 17pt, onecolumn]{extarticle}
+
+\usepackage{xltxtra}
+
+\usepackage{adjustbox, alltt, array, balance, caption, calc, color, dblfloatfix, enumerate, enumitem, exscale, fancybox, fancyhdr, fixmath, framed, gensymb, graphicx, graphics, hyphenat, icomma, lipsum, listings, mathcomp, mathtools, mathdots, multicol, multirow, ngerman, nicefrac, placeins, relsize, rotating, tabularx, tikz, titlesec, units, xifthen, xspace, xtab}
+
+\setromanfont[Mapping=tex-text]{Sans Stiefel}
+\setsansfont[Mapping=tex-text, Scale=MatchLowercase]{Linux Biolinum O}
+\setmonofont[Scale=MatchLowercase]{DejaVu Sans Mono}
+
+\usepackage{polyglossia}
+\setdefaultlanguage[spelling=new, latesthyphen=true, script=fraktur, babelshorthands=true]{german}
+
+\usepackage[colorlinks=true, linkcolor=black, citecolor=black, urlcolor=black]{hyperref}
+
+% ----Seite einstellen----
+\setlength{\columnsep}{1 cm}
+\setlength{\textwidth}{17 cm}
+\setlength{\evensidemargin}{2 cm} %Abstand Text – äußerer Rand
+
+\setlength{\hoffset}{-1 in}
+\setlength{\oddsidemargin}{21 cm}
+\addtolength{\oddsidemargin}{-\textwidth}
+\addtolength{\oddsidemargin}{-\evensidemargin}
+
+\setlength{\voffset}{-1 in}
+\setlength{\topmargin}{1.6 cm}
+
+\setlength{\headsep}{0 pt}
+\setlength{\headheight}{0 pt}
+\setlength{\textheight}{29.7 cm}
+\addtolength{\textheight}{-2 \topmargin}
+\addtolength{\textheight}{- \headheight}
+\addtolength{\textheight}{- \headsep}
+
+\frenchspacing
+
+\setcounter{secnumdepth}{0}
+\setcounter{tocdepth}{1}
+
+\widowpenalty=1000
+\clubpenalty=1000
+
+\hyphenpenalty=500
+\pretolerance=150
+\tolerance=1500
+\setlength{\emergencystretch}{\textwidth}
+
+\renewcommand{\/}{\ZWNJhyp{}}
+
+\title{Sans Stiefel}
+\author{Gerrit Ansmann}
+\date{\today}
+
+\setlogokern{eL}{0.075em} 
+\setlogokern{Xe}{-0.2em} 
+\setlogokern{aT}{-0.075em}
+%\setlogodrop{0.4ex}
+
+\newlength{\lw}
+\newenvironment{Kasten}[2][3pt]{%
+\begin{center}
+	\setlength{\lw}{#1}%
+	\begin{tikzpicture}[line width=\lw, line join=round]%
+		\node [inner sep=3\lw, text width=#2-10\lw]%
+			(BOXCONTENT)%
+			\bgroup\ignorespaces%
+}{
+			\egroup;
+		\draw ([xshift=-\lw]BOXCONTENT.north west) -- ([xshift=\lw]BOXCONTENT.north east);
+		\draw ([xshift=-\lw]BOXCONTENT.south west) -- ([xshift=\lw]BOXCONTENT.south east);
+		\draw ([xshift=-\lw, yshift=-2\lw]BOXCONTENT.north west) -- ++(\lw,0) -- ([yshift=2\lw]BOXCONTENT.south west) -- ++(-\lw,0);
+		\draw ([xshift=\lw, yshift=-2\lw]BOXCONTENT.north east) -- ++(-\lw,0) -- ([yshift=2\lw]BOXCONTENT.south east) -- ++(+\lw,0);
+	\end{tikzpicture}
+\end{center}
+}
+
+\newcolumntype{C}{>{\centering\arraybackslash}X}
+
+\renewcommand{\bfseries}{\xspace\addfontfeature{LetterSpace=15.0,WordSpace=1.5,Ligatures={Required,NoCommon}}}
+
+\newcommand{\Beispiel}[2][]{%
+\normalsize%
+\ifthenelse{\isempty{#1}}{\verb⚥#2⚥}{\ifthenelse{\isin{=}{#1}}{\verb⚥#1⚥}{#1}}%
+\strut\linebreak\LARGE\strut%
+\ifthenelse{\isin{=}{#1}}{\addfontfeature{#1}}{}#2%
+}
+
+\renewcommand{\arraystretch}{1.3}
+
+
+
+\begin{document}
+
+\hyphenation{Schaft-ſtie-fel-gro-tesk Schaft-ſtie-fel-gro-tes-ken}
+
+\begin{Kasten}{0.9\linewidth}
+	\centering
+	\textlarger[4]{\textbf{Sans }\addfontfeature{CharacterVariant=1:1} \textbf{ Stiefel}}\\[\baselineskip]
+	\textlarger[1]{OpenType-Funktionen mit Beiſpielen für {\addfontfeature{StylisticSet=1} \XeLaTeX}}\\[\baselineskip]	
+	Gerrit Ansmann, \today
+	
+\end{Kasten}
+
+\vfill
+
+\noindent Dieſe Schrift iſt ein Verſuch, die Frage zu beantworten, wie ſich die gebrochenen Schriften hätten weiterentwickeln können, wären ſie nicht 1941 abgeſchafft worden.
+Sie befindet ſich irgendwo zwiſchen einer Fraktur und einer Grotesken (genauer geſagt einer Egyptienne) und ordnet ſich damit in die gebrochenen Grotesken ein.
+Dieſe auch »Schaftſtiefelgrotesken« genannten Schriften werden ſtärker noch als die klaſſiſchen Frakturen mit dem Nationalſozialismus aſſoziiert und beinhalten u.\,a. Vertreter namens »Großdeutſch« und »National«.
+
+Ich habe die vorliegende Schrift Sans Stiefel (»ohne Stiefel«) genannt, da trotz des vergleichbaren Anſatzes deutliche optiſche Unterſchiede zu beſagten Schaftſtiefelgrotesken beſtehen — ſei letztere Bezeichnung nun angebracht oder nicht.
+Wer darauf beſteht, Schriften, Schuhwerk und Ideologien miteinander zu aſſoziieren, darf den Namen gerne auch als Distanzierung von mit Stiefeln aſſoziierten Ideologien auf\/faſſen.
+
+
+
+\section{Enthaltene Zeichen}
+Sans Stiefel enthält den Unicode-Bereich \textsf{Basic Latin} vollſtändig ſowie bis auf wenige Ausnahmen die Bereiche \textsf{Latin"~1 Supplement}, \textsf{Latin Extended"~A} und \textsf{Number Forms}.
+Außerdem ſind ungefähr die Hälfte der Zeichen aus »General Punctuation«, hoch- und tiefgeſtellte Ziffern ſowie einige weitere nicht allzu ſelten auf\/tauchende Zeichen wie €, №, ℗, ℠, ™, ℓ, μ, π, ꝛ, →, ⇒, ∓, ∝, ∞, ≈, ∼, ≡, ≫, ≥ oder ⊥ enthalten.
+
+\section{OpenType-Funktionen}
+Wenn bei den Beiſpielen auf den folgenden Seiten der Quelltext nicht offenſichtlich mit dem Beiſpiel korreſpondiert, ſo iſt er als \textsf{fontspec}-Einſtellung zu verſtehen und kann z.\,B. als Argument an \texttt{\textbackslash addfontfeature} übergeben werden.
+
+\subsection{Ligaturen und Kontextabhängiges}
+In Sans Stiefel ſind zur Zeit 55~Ligaturen ſtandardmäßig aktiviert. Hier\/zu zählen:
+\begin{itemize}[itemsep = 0pt, parsep=\fill]
+	\item im Deutſchen häufig verwendete Ligaturen wie ch, ck, Ch, ff, fi, ft, kt, rz, ſi, ſſ, ſt, tt, tz oder Th,
+	\item ſeltene wie ct, fj, kk, rꝛ, ſk oder ſl,
+	\item vermutlich nur in Namen oder Kunſtwörtern auf\/tauchende wie fh, fk, ftz oder Tl,
+	\item für Fremdſprachen wie (Alt"~)Engliſch, Isländiſch oder Niederländiſch gedachte wie ſh, fþ, fð oder ſĳ,
+	\item für andere Paradigmata der ſ"~Schreibung (einmal mehr: Engliſch) gedachte wie ſſb,
+	\item ſolche, bei denen ſelbſt ich bisher noch keine Idee habe, wozu ſie gut ſein könnten, wie ſtz.
+\end{itemize}
+All dieſe Ligaturen ſind mit dem OpenType-Feature \texttt{liga} verknüpft und können mit der \textsf{fontspec}-Einſtellung \texttt{Ligatures=NoCommon} deaktiviert werden, wovon aber abzuraten iſt:
+\begin{Kasten}{0.9\linewidth}
+	\begin{tabularx}{\linewidth}{C C}
+		\Beispiel[Standard]{Quaſtenfloſſer Schmerzmittel Charakterſtück}& \Beispiel[Ligatures=NoCommon]{Quaſtenfloſſer Schmerzmittel Charakterſtück}
+	\end{tabularx}
+\end{Kasten}
+
+Einzelne Ligaturen können mit einem Bindehemmer (im Beiſpiel \verb⚥\/⚥) unterbunden werden:
+\begin{Kasten}{0.75\linewidth}
+	\begin{tabularx}{\linewidth}{C C}
+		\Beispiel{Ur\/zeit\/tier} & \Beispiel{Urzeittier}\\
+		\Beispiel{Auf\/lauf\/kind} & \Beispiel{Auflaufkind}
+	\end{tabularx}
+\end{Kasten}
+
+Die Ligaturen ch, ck, ſt und tz ſind zuſätzlich mit dem OpenType-Feature \texttt{rlig} verknüpft, um automatiſches Sperren zu ermöglichen, z.\,B. via:
+\begin{verbatim}
+\renewcommand {\bfseries} {\xspace \addfontfeature{
+   LetterSpace = 15.0, WordSpace = 1.5,
+   Ligatures = {Required, NoCommon} }} 
+\end{verbatim}
+
+Ähnlich den Ligaturen gibt es ſchließlich noch eine kurze Form des~ſ für den Fall, daſs dieſem ein beinahe kollidierender Buchſtabe wie ä folgt und eine Ligatur oder poſitives Kerning keine Option ſind:
+\begin{Kasten}{0.55\linewidth}
+	\begin{tabularx}{\linewidth}{C C}
+		\Beispiel{ſüffiſant} & \Beispiel{ſ\/üffiſant}
+	\end{tabularx}
+\end{Kasten}
+
+\subsection{alternatives S}
+Mit dem OpenType-Feature \texttt{cv01} iſt eine alternative Form des S verknüpft:
+\begin{Kasten}{0.75\linewidth}
+	\begin{tabularx}{\linewidth}{>{\hsize=.7\hsize}C >{\hsize=1.3\hsize}C}
+		\Beispiel[Standard]{SŚŜŠŞ} & \Beispiel[CharacterVariant=1:1]{SŚŜŠŞ}
+	\end{tabularx}
+\end{Kasten}
+
+\subsection{Antiqua-Majuskeln}
+In den meiſten gebrochenen Schriften ſind Großbuchſtaben unſchön und ſchwer zu leſen, wenn ſie im Verbund auf\/treten. Stattdeſſen wird normalerweiſe eine externe Antiqua genutzt. Sans Stiefel enthält jedoch Antiqua-Verſionen der in der deutſchen Sprache auf\/tretenden Großbuchſtaben. Dieſe werden mittels OpenType automatiſch genutzt, ſobald zwei Großbuchſtaben aufeinanderfolgen, können aber auch über das OpenType-Feature \texttt{ss01} gezielt aktiviert werden:
+\begin{Kasten}{0.9\linewidth}
+	\begin{tabularx}{\linewidth}{>{\hsize=.75\hsize}C >{\hsize=1.25\hsize}C}
+		\Beispiel{MAJUSKEL} &\Beispiel{M\/A\/J\/U\/S\/K\/E\/L} \\
+		\Beispiel[Standard]{XeLaTeX} & \Beispiel[StylisticSet=1]{XeLaTeX}
+	\end{tabularx}
+\end{Kasten}
+ 
+\subsection{Ziffern}
+Über die OpenType-Features \texttt{onum} und \texttt{tnum} können Minuskel- bzw. Tabellenziffern angeſteuert werden, wobei ſich im letzten Fall nur die Eins ändert.
+\begin{Kasten}{\linewidth}
+	\begin{tabularx}{\linewidth}{lCC}
+		\verb⚥Numbers=⚥&
+		\verb⚥Proportional⚥ &
+		\verb⚥Monospaced⚥ \\[0.3\baselineskip]
+		\verb⚥Lining⚥ &
+		\huge 0123456789 &
+		{\huge \addfontfeature{Numbers=Monospaced} 0123456789} \\[0.3\baselineskip]
+		\verb⚥OldStyle⚥ &
+		{\huge \addfontfeature{Numbers=OldStyle} 0123456789} &
+		{\huge \addfontfeature{Numbers={Monospaced, OldStyle}} 0123456789}
+	\end{tabularx}
+\end{Kasten}
+
+\end{document}
