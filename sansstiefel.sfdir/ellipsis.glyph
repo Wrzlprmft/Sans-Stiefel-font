@@ -1,0 +1,15 @@
+
+StartChar: ellipsis
+Encoding: 8230 8230 370
+Width: 720
+VWidth: 0
+Flags: W
+HStem: -30 149
+VStem: 45 150 285 150 525 150
+CounterMasks: 1 70
+LayerCount: 2
+Fore
+Refer: 123 46 N 1 0 0 1 480 0 2
+Refer: 123 46 N 1 0 0 1 240 0 2
+Refer: 123 46 N 1 0 0 1 0 0 2
+EndChar

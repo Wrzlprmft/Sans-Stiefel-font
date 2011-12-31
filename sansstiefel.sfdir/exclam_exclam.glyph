@@ -1,0 +1,15 @@
+
+StartChar: exclam_exclam
+Encoding: 8252 8252 379
+Width: 449
+VWidth: 0
+Flags: W
+HStem: 790 20<45 132.5 254 341.5>
+VStem: 45 120<720 803.519> 254 120<720 803.519>
+LayerCount: 2
+Fore
+Refer: 128 33 N 1 0 0 1 209 0 2
+Refer: 128 33 N 1 0 0 1 0 0 2
+Ligature2: "'liga' Ligaturen-1" exclam exclam
+Ligature2: "'liga' Ligaturen-1" exclam exclam
+EndChar

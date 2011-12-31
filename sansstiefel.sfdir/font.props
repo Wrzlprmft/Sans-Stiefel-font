@@ -1,0 +1,182 @@
+SplineFontDB: 3.0
+FontName: Sanstiefel
+FullName: Sans Stiefel Regular
+FamilyName: Sans Stiefel
+Weight: Regular
+Copyright: Copyright (c) 2011 Gerrit Ansmann.\n\n\nLicence\n-------\n\nPREAMBLE\n\nThis licence is based on the Ubuntu Font Licence, reverting some of its changes to the the SIL Open Font License.\n\nThis licence allows the licensed fonts to be used, studied, modified and redistributed freely as long as they are not sold by themselves. The fonts, including any derivative works, can be bundled, embedded and redistributed provided the terms of this licence are met. The fonts and derivatives, however, cannot be released under any other licence. The requirement for fonts to remain under this licence does not require any document created using the fonts or their derivatives to be published under this licence, as long as the primary purpose of the document is not to be a vehicle for the distribution of the fonts.\n\n\nDEFINITIONS\n\n'Font Software' refers to the set of files released by the Copyright Holder(s) under this licence and clearly marked as such. This may include source files, build scripts and documentation.\n\n'Original Version' refers to the collection of Font Software components as received under this licence.\n\n'Modified Version' refers to any derivative made by adding to, deleting or substituting--in part or in whole--any of the components of the Original Version, by changing formats or by porting the Font Software to a new environment.\n\n'Author' refers to any designer, engineer, programmer, technical writer or other person who contributed to the Font Software.\n\n'Substantially Changed' refers to Modified Versions which can be easily identified as dissimilar to the Font Software by users of the Font Software comparing the Original Version with the Modified Version.\n\nTo 'propagate' a work means to do anything with it that, without permission, would make you directly or secondarily liable for infringement under applicable copyright law, except executing it on a computer or modifying a private copy. Propagation includes copying, distribution (with or without modification and with or without charging a redistribution fee), making available to the public and in some countries other activities as well.\n\n\nPERMISSION & CONDITIONS\n\nThis licence does not grant any rights under trademark law and all such rights are reserved.\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of the Font Software, to use, study and propagate the Font Software, subject to the following conditions:\n\n1) Each copy of the Font Software must contain the above copyright notice and this licence. These can be included either as stand-alone text files, human-readable headers or in the appropriate machine-readable metadata fields within text or binary files as long as those fields can be easily viewed by the user.\n\n2) The font name complies with the following:\n(a) The Original Version must retain its name, unmodified.\n(b) Modified Versions which are Substantially Changed must be renamed to avoid use of the name of the Original Version or similar names entirely.\n(c) Modified Versions which are not Substantially Changed must be renamed to both (i) retain the name of the Original Version and (ii) add additional naming elements to distinguish the Modified Version from the Original Version. The name of such Modified Versions must be the name of the Original Version, with 'derivative X' where X represents the name of the new work, appended to that name.\n\n3) The name(s) of the Copyright Holder(s) or the Author(s) of the Font Software shall not be used to promote, endorse or advertise any Modified Version, except (i) as required by this licence, (ii) to acknowledge the contribution(s) of the Copyright Holder(s) and the Author(s) or (iii) with their explicit written permission.\n\n4) The Font Software, modified or unmodified, in part or in whole, must be distributed entirely under this licence and must not be distributed under any other licence. The requirement for fonts to remain under this licence does not affect any document created using the Font Software, except any version of the Font Software extracted from a document created using the Font Software may only be distributed under this licence.\n\n5) Neither the Font Software nor any of its individual components, in Original or Modified Versions, may be sold by itself.\n\n\nTERMINATION\n\nThis licence becomes null and void if any of the above conditions are not met.\n\n\nDISCLAIMER\n\nThe Font Software is provided 'as is', without warranty of any kind, express or implied, including but not limited to any warranties of merchantability, fitness for a particular purpose and non-infringement of copyright, patent, trademark or other right. In no event shall the Copyright Holder(s) or the Author(s) be liable for any claim, damages or other liability, including any general, special, indirect, incidental or consequential damages, whether in an action of contract, tort or otherwise, arising from, out of the use or inability to use the Font Software or from other dealings in the Font Software.\n
+Version: 0.1
+DefaultBaseFilename: sanstiefel
+ItalicAngle: 0
+UnderlinePosition: 0
+UnderlineWidth: 0
+Ascent: 810
+Descent: 180
+LayerCount: 2
+Layer: 0 0 "Back"  1
+Layer: 1 0 "Fore"  0
+NeedsXUIDChange: 1
+XUID: [1021 740 1641019490 39924]
+BaseHoriz: 0
+FSType: 8
+OS2Version: 0
+OS2_WeightWidthSlopeOnly: 0
+OS2_UseTypoMetrics: 0
+CreationTime: 1322072954
+ModificationTime: 1325347948
+PfmFamily: 17
+TTFWeight: 400
+TTFWidth: 5
+LineGap: 0
+VLineGap: 92
+OS2TypoAscent: 0
+OS2TypoAOffset: 1
+OS2TypoDescent: 0
+OS2TypoDOffset: 1
+OS2TypoLinegap: 0
+OS2WinAscent: 0
+OS2WinAOffset: 1
+OS2WinDescent: 0
+OS2WinDOffset: 1
+HheadAscent: 0
+HheadAOffset: 1
+HheadDescent: 0
+HheadDOffset: 1
+OS2Vendor: 'PfEd'
+Lookup: 4 0 1 "'rlig' Zwangsligaturen"  {"'rlig' Zwangsligaturen-1"  } ['rlig' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 1 0 0 "longs zu longs.short"  {"longs zu longs.short-1"  } []
+Lookup: 6 0 0 "'ccmp' Contextuals"  {"'ccmp' longs zu longs.short"  "'ccmp' Mehrere Versalien"  } ['ccmp' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 1 0 0 "'ss01' Antiqua-Versalien"  {"'ss01' Antiqua-Versalien-1" ("antiqua" ) } ['ss01' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 1 0 0 "'cv01' Alternatives S"  {"'cv01' Alternatives S-1" ("alt" ) } ['cv01' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 1 0 0 "'lnum' Versalziffern"  {"'lnum' Versalziffern-1" ("oldstyle" ) } ['lnum' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 1 0 0 "'tnum' Tabellenziffern"  {"'tnum' Tabellenziffern-1" ("fitted" ) } ['tnum' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 1 0 0 "'pnum' Proportionalziffern"  {"'pnum' Proportionalziffern-1"  } ['pnum' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 1 0 0 "'onum' Minuskelziffern"  {"'onum' Minuskelziffern-1" ("oldstyle" ) } ['onum' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 4 0 1 "'liga' Ligaturen"  {"'liga' Ligaturen-1"  } ['liga' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 258 0 0 "'kern' Horizontal Kerning"  {"R+APYA-mische Ziffern" [150,0,2] "Interpunktuation-Antiqua" [150,0,2] "Antiqua-Interpunktuation" [150,30,2] "Antiqua-Antiqua" [150,0,2] } ['kern' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
+MarkAttachClasses: 1
+DEI: 91125
+KernClass2: 5 5 "R+APYA-mische Ziffern" 
+ 122 Oneroman Tworoman Threeroman Fourroman Fiveroman Sixroman Sevenroman Eightroman Nineroman Tenroman Elevenroman Twelveroman
+ 10 Fiftyroman
+ 16 Fivehundredroman
+ 29 Hundredroman Onethousandroman
+ 81 Oneroman Tworoman Threeroman Fourroman Nineroman Tenroman Elevenroman Twelveroman
+ 40 Fiveroman Sixroman Sevenroman Eightroman
+ 12 Hundredroman
+ 44 Fiftyroman Fivehundredroman Onethousandroman
+ 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -90 {} -90 {} -75 {} 0 {} 0 {} 0 {} -90 {} -90 {} 0 {} 0 {} -60 {} -90 {} 0 {} -60 {} 0 {} 0 {} 0 {} -60 {} 0 {}
+KernClass2: 12 10 "Interpunktuation-Antiqua" 
+ 45 quotedbl quotesingle quoteright quotedblright
+ 31 parenleft bracketleft braceleft
+ 45 asterisk quoteleft quotereversed quotedblleft
+ 73 comma guillemotleft quotesinglbase quotedblbase quotedblrev guilsinglleft
+ 41 hyphen softhyphen hyphentwo hyphennobreak
+ 6 period
+ 5 slash
+ 10 exclamdown
+ 29 guillemotright guilsinglright
+ 12 questiondown
+ 13 endash emdash
+ 27 A.antiqua Adieresis.antiqua
+ 57 C.antiqua G.antiqua O.antiqua Q.antiqua Odieresis.antiqua
+ 9 J.antiqua
+ 9 S.antiqua
+ 19 T.antiqua Y.antiqua
+ 27 U.antiqua Udieresis.antiqua
+ 19 V.antiqua W.antiqua
+ 19 X.antiqua Z.antiqua
+ 14 Eszett.antiqua
+ 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -90 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -30 {} 0 {} -90 {} -45 {} 145 {} -30 {} 0 {} 0 {} 0 {} 0 {} -60 {} 0 {} -60 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 120 {} 0 {} -120 {} -30 {} -120 {} 0 {} 0 {} 0 {} -45 {} 0 {} 0 {} 0 {} -120 {} 0 {} -60 {} -30 {} 0 {} 0 {} 0 {} -60 {} 120 {} 0 {} -120 {} -60 {} -120 {} 0 {} 0 {} 0 {} -120 {} -60 {} -30 {} -45 {} 0 {} 0 {} 0 {} 0 {} -60 {} 0 {} 0 {} 0 {} 180 {} 0 {} 0 {} 0 {} -30 {} 0 {} 0 {} 0 {} -45 {} 0 {} 0 {} -60 {} -150 {} -45 {} -120 {} -60 {} -30 {} 0 {} 0 {} -45 {} 180 {} -60 {} -90 {} -60 {} -90 {} 0 {} 0 {} 0 {} -15 {} 0 {} 0 {} -30 {} -150 {} 0 {} -60 {} -60 {} 0 {}
+KernClass2: 14 10 "Antiqua-Interpunktuation" 
+ 27 A.antiqua Adieresis.antiqua
+ 24 B.antiqua Eszett.antiqua
+ 9 C.antiqua
+ 37 D.antiqua O.antiqua Odieresis.antiqua
+ 19 E.antiqua Z.antiqua
+ 9 F.antiqua
+ 19 K.antiqua X.antiqua
+ 9 L.antiqua
+ 9 P.antiqua
+ 9 R.antiqua
+ 19 T.antiqua Y.antiqua
+ 19 V.antiqua W.antiqua
+ 9 Q.antiqua
+ 45 quotedbl quotesingle quoteright quotedblright
+ 89 parenright question bracketright braceright interrobang question_question question_exclam
+ 52 comma period quotesinglbase quotedblbase quotedblrev
+ 41 hyphen softhyphen hyphentwo hyphennobreak
+ 5 slash
+ 30 colon semicolon guilsinglright
+ 27 guillemotleft guilsinglleft
+ 13 endash emdash
+ 36 quoteleft quotereversed quotedblleft
+ 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -90 {} -75 {} 0 {} 0 {} 0 {} 0 {} -60 {} 0 {} -90 {} 0 {} 0 {} -75 {} 0 {} 0 {} -45 {} 0 {} 0 {} 0 {} -30 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -75 {} -30 {} -30 {} 0 {} 0 {} -75 {} -75 {} 0 {} -90 {} 0 {} 0 {} 0 {} -30 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -60 {} -30 {} 0 {} 0 {} 0 {} 0 {} -150 {} -60 {} -210 {} -90 {} -120 {} -60 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -60 {} -60 {} 0 {} 0 {} -210 {} -75 {} 0 {} -30 {} 0 {} 0 {} -30 {} -120 {} -150 {} 0 {} 0 {} -30 {} -150 {} -30 {} -210 {} -30 {} -90 {} -60 {} -30 {} 0 {} 0 {} -45 {} 0 {} 0 {} 0 {} 0 {} -60 {} -60 {} -60 {} 0 {} 0 {} 0 {} -150 {} -120 {} -150 {} -120 {} -150 {} -120 {} 0 {} 0 {} 0 {} 0 {} -120 {} -75 {} -150 {} -90 {} -120 {} -60 {} 0 {} 0 {} 0 {} -45 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -45 {}
+KernClass2: 8 8 "Antiqua-Antiqua" 
+ 37 A.antiqua R.antiqua Adieresis.antiqua
+ 62 B.antiqua D.antiqua O.antiqua Odieresis.antiqua Eszett.antiqua
+ 49 C.antiqua E.antiqua K.antiqua X.antiqua Z.antiqua
+ 49 F.antiqua T.antiqua V.antiqua W.antiqua Y.antiqua
+ 9 L.antiqua
+ 9 P.antiqua
+ 9 Q.antiqua
+ 27 A.antiqua Adieresis.antiqua
+ 57 C.antiqua G.antiqua O.antiqua Q.antiqua Odieresis.antiqua
+ 9 J.antiqua
+ 24 S.antiqua Eszett.antiqua
+ 27 U.antiqua Udieresis.antiqua
+ 39 T.antiqua V.antiqua W.antiqua Y.antiqua
+ 19 X.antiqua Z.antiqua
+ 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -30 {} 15 {} 0 {} -50 {} -105 {} 0 {} 0 {} -30 {} 0 {} 0 {} 0 {} 0 {} -65 {} -45 {} 0 {} 0 {} -60 {} 0 {} -45 {} 0 {} 0 {} 0 {} 0 {} -120 {} -60 {} -30 {} -45 {} 0 {} 0 {} 0 {} 0 {} 0 {} -60 {} 0 {} 0 {} -90 {} -180 {} 0 {} 0 {} -90 {} 0 {} -30 {} 0 {} 0 {} -30 {} -30 {} 0 {} 0 {} 0 {} 15 {} 0 {} -60 {} -75 {} 0 {}
+ChainSub2: class "'ccmp' longs zu longs.short"  3 1 3 1
+  Class: 17 longs longs_longs
+  Class: 485 d f acircumflex atilde adieresis ecircumflex edieresis igrave iacute icircumflex idieresis ntilde ocircumflex otilde odieresis ucircumflex udieresis ydieresis amacron abreve ccircumflex ccaron dcaron emacron ebreve ecaron gcircumflex gbreve hcircumflex hbar itilde imacron ibreve jcircumflex kcommaaccent lacute lcommaaccent lcaron ldot lslash ncaron omacron obreve ohungarumlaut rcaron scircumflex scaron tcommaaccent tcaron tbar utilde umacron ubreve uhungarumlaut ycircumflex zcaron
+  FClass: 17 longs longs_longs
+  FClass: 485 d f acircumflex atilde adieresis ecircumflex edieresis igrave iacute icircumflex idieresis ntilde ocircumflex otilde odieresis ucircumflex udieresis ydieresis amacron abreve ccircumflex ccaron dcaron emacron ebreve ecaron gcircumflex gbreve hcircumflex hbar itilde imacron ibreve jcircumflex kcommaaccent lacute lcommaaccent lcaron ldot lslash ncaron omacron obreve ohungarumlaut rcaron scircumflex scaron tcommaaccent tcaron tbar utilde umacron ubreve uhungarumlaut ycircumflex zcaron
+ 1 0 1
+  ClsList: 1
+  BClsList:
+  FClsList: 2
+ 1
+  SeqLookup: 0 "longs zu longs.short" 
+EndFPST
+ChainSub2: class "'ccmp' Mehrere Versalien"  3 3 3 2
+  Class: 88 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Adieresis Odieresis Udieresis Eszett
+  Class: 328 A.antiqua B.antiqua C.antiqua D.antiqua E.antiqua F.antiqua G.antiqua H.antiqua I.antiqua J.antiqua K.antiqua L.antiqua M.antiqua N.antiqua O.antiqua P.antiqua Q.antiqua R.antiqua S.antiqua T.antiqua U.antiqua V.antiqua W.antiqua X.antiqua Y.antiqua Z.antiqua Adieresis.antiqua Odieresis.antiqua Udieresis.antiqua Eszett.antiqua
+  BClass: 88 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Adieresis Odieresis Udieresis Eszett
+  BClass: 328 A.antiqua B.antiqua C.antiqua D.antiqua E.antiqua F.antiqua G.antiqua H.antiqua I.antiqua J.antiqua K.antiqua L.antiqua M.antiqua N.antiqua O.antiqua P.antiqua Q.antiqua R.antiqua S.antiqua T.antiqua U.antiqua V.antiqua W.antiqua X.antiqua Y.antiqua Z.antiqua Adieresis.antiqua Odieresis.antiqua Udieresis.antiqua Eszett.antiqua
+  FClass: 88 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Adieresis Odieresis Udieresis Eszett
+  FClass: 328 A.antiqua B.antiqua C.antiqua D.antiqua E.antiqua F.antiqua G.antiqua H.antiqua I.antiqua J.antiqua K.antiqua L.antiqua M.antiqua N.antiqua O.antiqua P.antiqua Q.antiqua R.antiqua S.antiqua T.antiqua U.antiqua V.antiqua W.antiqua X.antiqua Y.antiqua Z.antiqua Adieresis.antiqua Odieresis.antiqua Udieresis.antiqua Eszett.antiqua
+ 1 0 1
+  ClsList: 1
+  BClsList:
+  FClsList: 1
+ 1
+  SeqLookup: 0 "'ss01' Antiqua-Versalien" 
+ 1 1 0
+  ClsList: 1
+  BClsList: 2
+  FClsList:
+ 1
+  SeqLookup: 0 "'ss01' Antiqua-Versalien" 
+EndFPST
+LangName: 1033 "" "" "" "" "" "" "" "" "" "" "" "" "" "Copyright +AKkA 2011 Gerrit Ansmann.+AAoACgAK-Licence+AAoA--------+AAoACgAA-PREAMBLE+AAoACgAA-This licence is based on the Ubuntu Font Licence, reverting some of its changes to the the SIL Open Font License.+AAoACgAA-This licence allows the licensed fonts to be used, studied, modified and redistributed freely as long as they are not sold by themselves. The fonts, including any derivative works, can be bundled, embedded and redistributed provided the terms of this licence are met. The fonts and derivatives, however, cannot be released under any other licence. The requirement for fonts to remain under this licence does not require any document created using the fonts or their derivatives to be published under this licence, as long as the primary purpose of the document is not to be a vehicle for the distribution of the fonts.+AAoACgAK-DEFINITIONS+AAoACiAY-Font Software+IBkA refers to the set of files released by the Copyright Holder(s) under this licence and clearly marked as such. This may include source files, build scripts and documentation.+AAoACiAY-Original Version+IBkA refers to the collection of Font Software components as received under this licence.+AAoACiAY-Modified Version+IBkA refers to any derivative made by adding to, deleting or substituting+IBQA-in part or in whole+IBQA-any of the components of the Original Version, by changing formats or by porting the Font Software to a new environment.+AAoACiAY-Author+IBkA refers to any designer, engineer, programmer, technical writer or other person who contributed to the Font Software.+AAoACiAY-Substantially Changed+IBkA refers to Modified Versions which can be easily identified as dissimilar to the Font Software by users of the Font Software comparing the Original Version with the Modified Version.+AAoACgAA-To +IBgA-propagate+IBkA a work means to do anything with it that, without permission, would make you directly or secondarily liable for infringement under applicable copyright law, except executing it on a computer or modifying a private copy. Propagation includes copying, distribution (with or without modification and with or without charging a redistribution fee), making available to the public and in some countries other activities as well.+AAoACgAK-PERMISSION & CONDITIONS+AAoACgAA-This licence does not grant any rights under trademark law and all such rights are reserved.+AAoACgAA-Permission is hereby granted, free of charge, to any person obtaining a copy of the Font Software, to use, study and propagate the Font Software, subject to the following conditions:+AAoACgAA-1) Each copy of the Font Software must contain the above copyright notice and this licence. These can be included either as stand-alone text files, human-readable headers or in the appropriate machine-readable metadata fields within text or binary files as long as those fields can be easily viewed by the user.+AAoACgAA-2) The font name complies with the following:+AAoA(a) The Original Version must retain its name, unmodified.+AAoA(b) Modified Versions which are Substantially Changed must be renamed to avoid use of the name of the Original Version or similar names entirely.+AAoA(c) Modified Versions which are not Substantially Changed must be renamed to both (i) retain the name of the Original Version and (ii) add additional naming elements to distinguish the Modified Version from the Original Version. The name of such Modified Versions must be the name of the Original Version, with +IBgA-derivative X+IBkA where X represents the name of the new work, appended to that name.+AAoACgAA-3) The name(s) of the Copyright Holder(s) or the Author(s) of the Font Software shall not be used to promote, endorse or advertise any Modified Version, except (i) as required by this licence, (ii) to acknowledge the contribution(s) of the Copyright Holder(s) and the Author(s) or (iii) with their explicit written permission.+AAoACgAA-4) The Font Software, modified or unmodified, in part or in whole, must be distributed entirely under this licence and must not be distributed under any other licence. The requirement for fonts to remain under this licence does not affect any document created using the Font Software, except any version of the Font Software extracted from a document created using the Font Software may only be distributed under this licence.+AAoACgAA-5) Neither the Font Software nor any of its individual components, in Original or Modified Versions, may be sold by itself.+AAoACgAK-TERMINATION+AAoACgAA-This licence becomes null and void if any of the above conditions are not met.+AAoACgAK-DISCLAIMER+AAoACgAA-The Font Software is provided +IBgA-as is+IBkA, without warranty of any kind, express or implied, including but not limited to any warranties of merchantability, fitness for a particular purpose and non-infringement of copyright, patent, trademark or other right. In no event shall the Copyright Holder(s) or the Author(s) be liable for any claim, damages or other liability, including any general, special, indirect, incidental or consequential damages, whether in an action of contract, tort or otherwise, arising from, out of the use or inability to use the Font Software or from other dealings in the Font Software.+AAoA" 
+Encoding: UnicodeFull
+Compacted: 1
+UnicodeInterp: none
+NameList: Adobe Glyph List
+DisplaySize: -96
+AntiAlias: 1
+FitToEm: 1
+WinInfo: 459 17 8
+BeginPrivate: 8
+BlueValues 29 [0 0 495 540 720 720 810 810]
+OtherBlues 11 [-180 -180]
+BlueScale 5 0.022
+StdHW 4 [90]
+StdVW 4 [90]
+StemSnapH 37 [21 25 86 90 120 149 180 215 270 318]
+StemSnapV 4 [90]
+ForceBold 5 false
+EndPrivate
+TeXData: 1 0 0 254200 127100 84733 524288 1048576 84733 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
+EndSplineFont

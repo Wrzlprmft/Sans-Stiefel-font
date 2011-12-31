@@ -1,0 +1,12 @@
+
+StartChar: Dcroat
+Encoding: 272 272 251
+Width: 600
+VWidth: 909
+Flags: W
+HStem: 0 21<45 126 296.5 303.5> 405 90<45 75 165 300> 720 90<45 189.955>
+VStem: 75 90<163 405 495 566> 435 90<163 413.5>
+LayerCount: 2
+Fore
+Refer: 112 208 N 1 0 0 1 0 0 2
+EndChar

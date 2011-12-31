@@ -1,0 +1,13 @@
+
+StartChar: edieresis
+Encoding: 235 235 515
+Width: 450
+VWidth: 0
+Flags: W
+HStem: 0 21<220 230> 520 20<220 231.5> 569 120<60 150 300 390>
+VStem: 60 90<158 202 315 382 569 689> 300 90<569 689>
+LayerCount: 2
+Fore
+Refer: 187 168 S 1 0 0 1 30 -31 2
+Refer: 5 101 N 1 0 0 1 0 0 3
+EndChar

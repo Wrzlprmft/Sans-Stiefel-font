@@ -1,0 +1,13 @@
+
+StartChar: oneeighth
+Encoding: 8539 8539 420
+Width: 840
+VWidth: 955
+Flags: W
+HStem: 0 90<135 167> 400 20<595 606.5> 720 90<583 615> 790 20<75 156>
+VStem: 75 120<720 796.622>
+LayerCount: 2
+Fore
+Refer: 463 8312 S 1 0 0 1 360 -389 2
+Refer: 477 8543 N 1 0 0 1 -90 0 2
+EndChar

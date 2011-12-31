@@ -1,0 +1,28 @@
+
+StartChar: trianglebullet
+Encoding: 8227 8227 369
+Width: 465
+VWidth: 180
+Flags: W
+HStem: 520 20G<122 138.5>
+VStem: 90 90<307 413>
+LayerCount: 2
+Fore
+SplineSet
+90 225 m 6
+ 90 495 l 6
+ 90 519 110 539 134 540 c 5
+ 135 540 l 6
+ 142 540 153 537 159 533 c 6
+ 369 398 l 6
+ 380 391 390 374 390 360 c 4
+ 390 343 380 329 369 322 c 6
+ 159 187 l 6
+ 153 183 142 180 135 180 c 4
+ 110 180 90 200 90 225 c 6
+180 307 m 5
+ 262 360 l 5
+ 180 413 l 5
+ 180 307 l 5
+EndSplineSet
+EndChar

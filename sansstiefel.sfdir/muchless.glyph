@@ -1,0 +1,29 @@
+
+StartChar: muchless
+Encoding: 8810 8810 404
+Width: 773
+VWidth: 1076
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+45 360 m 0
+ 45 375 53 389 65 397 c 2
+ 372 602 l 1
+ 422 528 l 1
+ 171 360 l 1
+ 422 192 l 1
+ 372 118 l 1
+ 65 323 l 2
+ 53 331 45 345 45 360 c 0
+368 360 m 0
+ 368 375 376 389 388 397 c 2
+ 695 602 l 1
+ 745 528 l 1
+ 494 360 l 1
+ 745 192 l 1
+ 695 118 l 1
+ 388 323 l 2
+ 376 331 368 345 368 360 c 0
+EndSplineSet
+EndChar

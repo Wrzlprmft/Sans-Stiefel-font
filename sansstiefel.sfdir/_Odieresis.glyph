@@ -1,0 +1,14 @@
+
+StartChar: Odieresis
+Encoding: 214 214 500
+Width: 630
+VWidth: 0
+Flags: W
+HStem: 0 90<224.241 352.72> 720 90<405 444.447> 869 120<151 241 391 481>
+VStem: 75 90<216.094 657.455> 151 90<869 989> 225 90<248 652> 391 90<869 989> 465 90<125 376.051>
+LayerCount: 2
+Fore
+Refer: 187 168 N 1 0 0 1 121 269 2
+Refer: 94 79 N 1 0 0 1 0 0 3
+Substitution2: "'ss01' Antiqua-Versalien-1" Odieresis.antiqua
+EndChar

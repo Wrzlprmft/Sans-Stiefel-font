@@ -1,0 +1,29 @@
+
+StartChar: divide
+Encoding: 247 247 148
+Width: 450
+VWidth: 1076
+Flags: W
+HStem: 180 90<180 270> 315 90<45 405> 450 90<180 270>
+VStem: 180 90<180 270 450 540>
+CounterMasks: 1 e0
+LayerCount: 2
+Fore
+SplineSet
+45 315 m 1
+ 45 405 l 1
+ 405 405 l 1
+ 405 315 l 1
+ 45 315 l 1
+180 180 m 1
+ 180 270 l 1
+ 270 270 l 1
+ 270 180 l 5
+ 180 180 l 1
+180 450 m 1
+ 180 540 l 1
+ 270 540 l 1
+ 270 450 l 1
+ 180 450 l 1
+EndSplineSet
+EndChar

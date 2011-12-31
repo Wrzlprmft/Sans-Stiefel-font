@@ -1,0 +1,13 @@
+
+StartChar: Scaron.alt
+Encoding: 57375 57375 565
+Width: 615
+VWidth: 0
+Flags: W
+HStem: 0 90<224.262 352.72> 405 90<225 436.717> 675 90<518 555> 720 90<190.394 382>
+VStem: 75 90<175.716 657.455> 465 90<125 378.404>
+LayerCount: 2
+Fore
+Refer: 198 780 S 1 0 0 1 135 284 2
+Refer: 107 57371 N 1 0 0 1 0 0 3
+EndChar

@@ -1,0 +1,16 @@
+
+StartChar: question_exclam
+Encoding: 8264 8264 381
+Width: 720
+VWidth: 0
+Flags: W
+HStem: 675 90<45 109.625> 790 20<253 259 525 612.5>
+VStem: 195 90<270 422> 375 90<568 648> 525 120<720 803.519>
+LayerCount: 2
+Fore
+Refer: 128 33 N 1 0 0 1 480 0 2
+Refer: 127 63 N 1 0 0 1 0 0 2
+Ligature2: "'liga' Ligaturen-1" question exclam
+LCarets2: 1 0 
+Ligature2: "'liga' Ligaturen-1" question exclam
+EndChar

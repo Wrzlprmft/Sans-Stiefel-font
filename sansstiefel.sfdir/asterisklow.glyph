@@ -1,0 +1,12 @@
+
+StartChar: asterisklow
+Encoding: 8270 8270 383
+Width: 420
+VWidth: 620
+Flags: W
+HStem: 90 90<75 96 324 345> 225 90<45 126 294 375> 360 90<75 96 324 345>
+CounterMasks: 1 e0
+LayerCount: 2
+Fore
+Refer: 157 42 S 1 0 0 1 0 -360 2
+EndChar

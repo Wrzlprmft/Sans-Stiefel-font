@@ -1,0 +1,24 @@
+
+StartChar: commasubnosp
+Encoding: 806 806 199
+Width: 210
+VWidth: 1076
+Flags: W
+HStem: -180 180<66.4806 143.519>
+VStem: 30 120<-173.519 -90> 60 120<-90 -6.48056>
+LayerCount: 2
+Fore
+SplineSet
+30 -90 m 5xc0
+ 60 -90 l 5
+ 60 -45 l 6
+ 60 -20 80 0 105 0 c 6
+ 180 0 l 5
+ 180 -90 l 5xa0
+ 150 -90 l 5
+ 150 -135 l 6
+ 150 -160 130 -180 105 -180 c 6
+ 30 -180 l 5
+ 30 -90 l 5xc0
+EndSplineSet
+EndChar

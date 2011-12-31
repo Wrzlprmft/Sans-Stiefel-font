@@ -1,0 +1,29 @@
+
+StartChar: Fiveroman
+Encoding: 8548 8548 428
+Width: 690
+VWidth: 0
+Flags: W
+HStem: 0 90<135 284 406 555> 630 90<45 117 211 479 573 645>
+LayerCount: 2
+Fore
+SplineSet
+45 630 m 5
+ 45 720 l 5
+ 645 720 l 5
+ 645 630 l 5
+ 573 630 l 5
+ 406 90 l 5
+ 555 90 l 5
+ 555 0 l 5
+ 135 0 l 5
+ 135 90 l 5
+ 284 90 l 5
+ 117 630 l 5
+ 45 630 l 5
+211 630 m 5
+ 345 197 l 5
+ 479 630 l 5
+ 211 630 l 5
+EndSplineSet
+EndChar

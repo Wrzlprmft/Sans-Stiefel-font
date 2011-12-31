@@ -1,0 +1,29 @@
+
+StartChar: exclam
+Encoding: 33 33 128
+Width: 240
+VWidth: 1076
+Flags: W
+HStem: 790 20G<45 132.5>
+VStem: 45 120<720 803.519>
+LayerCount: 2
+Fore
+SplineSet
+45 720 m 1
+ 45 810 l 1
+ 120 810 l 2
+ 145 810 165 790 165 765 c 2
+ 165 270 l 1
+ 195 270 l 1
+ 195 180 l 1
+ 120 180 l 2
+ 95 180 75 200 75 225 c 2
+ 75 720 l 1
+ 45 720 l 1
+60 45 m 1
+ 135 120 l 1
+ 210 45 l 1
+ 135 -30 l 1
+ 60 45 l 1
+EndSplineSet
+EndChar

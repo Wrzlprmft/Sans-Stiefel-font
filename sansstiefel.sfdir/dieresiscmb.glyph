@@ -1,0 +1,12 @@
+
+StartChar: dieresiscmb
+Encoding: 776 776 165
+Width: 390
+VWidth: 530
+Flags: W
+HStem: 600 120<30 120 270 360>
+VStem: 30 90<600 720> 270 90<600 720>
+LayerCount: 2
+Fore
+Refer: 187 168 N 1 0 0 1 0 0 2
+EndChar

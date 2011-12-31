@@ -1,0 +1,22 @@
+
+StartChar: equal
+Encoding: 61 61 150
+Width: 450
+VWidth: 1076
+Flags: W
+HStem: 225 90<45 405> 405 90<45 405>
+LayerCount: 2
+Fore
+SplineSet
+45 225 m 1
+ 45 315 l 1
+ 405 315 l 1
+ 405 225 l 1
+ 45 225 l 1
+45 405 m 1
+ 45 495 l 1
+ 405 495 l 1
+ 405 405 l 5
+ 45 405 l 1
+EndSplineSet
+EndChar

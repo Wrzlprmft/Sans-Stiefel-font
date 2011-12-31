@@ -1,0 +1,31 @@
+
+StartChar: L.antiqua
+Encoding: 57436 57436 543
+Width: 570
+VWidth: 2167
+Flags: W
+HStem: 0 90<45 75 210 525> 790 20G<114 195>
+VStem: 75 120<720 796.622>
+LayerCount: 2
+Fore
+SplineSet
+45 0 m 1
+ 45 90 l 1
+ 75 90 l 1
+ 75 765 l 2
+ 75 777 80 789 88 797 c 0
+ 96 805 108 810 120 810 c 2
+ 195 810 l 1
+ 195 720 l 1
+ 165 720 l 1
+ 165 45 l 2
+ 165 33 160 21 152 13 c 0
+ 144 5 132 0 120 0 c 2
+ 45 0 l 1
+210 0 m 1
+ 210 90 l 1
+ 525 90 l 1
+ 525 0 l 1
+ 210 0 l 1
+EndSplineSet
+EndChar

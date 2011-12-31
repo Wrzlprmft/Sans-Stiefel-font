@@ -1,0 +1,22 @@
+
+StartChar: perpendicular
+Encoding: 8869 8869 405
+Width: 810
+VWidth: 0
+Flags: W
+HStem: 0 90<45 360 450 765> 700 20G<360 450>
+VStem: 360 90<90 720>
+LayerCount: 2
+Fore
+SplineSet
+45 0 m 1
+ 45 90 l 1
+ 360 90 l 1
+ 360 720 l 1
+ 450 720 l 1
+ 450 90 l 1
+ 765 90 l 1
+ 765 0 l 1
+ 45 0 l 1
+EndSplineSet
+EndChar

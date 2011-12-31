@@ -1,0 +1,17 @@
+
+StartChar: macroncmb
+Encoding: 772 772 197
+Width: 420
+VWidth: 1091
+Flags: W
+HStem: 645 90<30 390>
+LayerCount: 2
+Fore
+SplineSet
+30 645 m 5
+ 30 735 l 5
+ 390 735 l 5
+ 390 645 l 5
+ 30 645 l 5
+EndSplineSet
+EndChar

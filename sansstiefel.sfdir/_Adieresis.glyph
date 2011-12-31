@@ -1,0 +1,14 @@
+
+StartChar: Adieresis
+Encoding: 196 196 485
+Width: 600
+VWidth: 0
+Flags: W
+HStem: 0 21<296.5 303.5 474 555> 720 90<75 247.375 525 555> 871 120<150 240 390 480>
+VStem: 150 90<871 991> 296 89<523.391 681.461> 390 90<871 991> 435 90<163 720> 435 120<13.3779 62 720 796.622>
+LayerCount: 2
+Fore
+Refer: 187 168 S 1 0 0 1 120 271 2
+Refer: 79 65 N 1 0 0 1 0 0 3
+Substitution2: "'ss01' Antiqua-Versalien-1" Adieresis.antiqua
+EndChar

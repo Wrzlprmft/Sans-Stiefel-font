@@ -1,0 +1,13 @@
+
+StartChar: oneseventh
+Encoding: 8528 8528 478
+Width: 930
+VWidth: 955
+Flags: W
+HStem: 0 90<225 257> 330 90<555 770> 720 90<673 705> 790 20<165 246>
+VStem: 165 120<720 796.622> 555 330<331.062 413.238> 645 135<6.76172 90>
+LayerCount: 2
+Fore
+Refer: 462 8311 N 1 0 0 1 480 -390 2
+Refer: 477 8543 N 1 0 0 1 0 0 2
+EndChar

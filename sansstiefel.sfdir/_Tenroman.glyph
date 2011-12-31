@@ -1,0 +1,35 @@
+
+StartChar: Tenroman
+Encoding: 8553 8553 433
+Width: 690
+VWidth: 0
+Flags: W
+HStem: 0 90<45 125 231 459 565 645> 630 90<45 125 231 459 565 645>
+LayerCount: 2
+Fore
+SplineSet
+45 0 m 5
+ 45 90 l 5
+ 125 90 l 5
+ 292 360 l 5
+ 125 630 l 5
+ 45 630 l 5
+ 45 720 l 5
+ 645 720 l 5
+ 645 630 l 5
+ 565 630 l 5
+ 398 360 l 5
+ 565 90 l 5
+ 645 90 l 5
+ 645 0 l 5
+ 45 0 l 5
+231 90 m 5
+ 459 90 l 5
+ 345 274 l 5
+ 231 90 l 5
+231 630 m 5
+ 345 446 l 5
+ 459 630 l 5
+ 231 630 l 5
+EndSplineSet
+EndChar

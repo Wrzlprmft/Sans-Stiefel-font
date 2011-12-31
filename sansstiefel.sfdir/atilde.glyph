@@ -1,0 +1,13 @@
+
+StartChar: atilde
+Encoding: 227 227 509
+Width: 465
+VWidth: 0
+Flags: W
+HStem: 0 21<220 230 339 420> 495 25<220 231.5 339.5 420> 630 90<60 105 375 420>
+VStem: 60 90<158 382> 300 90<158 382>
+LayerCount: 2
+Fore
+Refer: 200 771 N 1 0 0 1 30 0 2
+Refer: 1 97 N 1 0 0 1 0 0 3
+EndChar

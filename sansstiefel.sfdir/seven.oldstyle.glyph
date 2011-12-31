@@ -1,0 +1,29 @@
+
+StartChar: seven.oldstyle
+Encoding: 57383 57383 575
+Width: 480
+VWidth: 1076
+Flags: W
+HStem: -180 21G<203 285> 450 90<75 306>
+VStem: 165 120<-162.624 -90>
+LayerCount: 2
+Fore
+SplineSet
+75 450 m 1
+ 75 540 l 1
+ 363 540 l 2
+ 377 540 390 534 398 523 c 0
+ 404 515 408 505 408 495 c 0
+ 408 492 408 487 407 484 c 2
+ 267 -90 l 1
+ 285 -90 l 1
+ 285 -180 l 1
+ 210 -180 l 2
+ 196 -180 183 -174 175 -163 c 0
+ 169 -155 165 -145 165 -135 c 0
+ 165 -132 165 -127 166 -124 c 2
+ 306 450 l 1
+ 75 450 l 1
+EndSplineSet
+Substitution2: "'lnum' Versalziffern-1" seven
+EndChar

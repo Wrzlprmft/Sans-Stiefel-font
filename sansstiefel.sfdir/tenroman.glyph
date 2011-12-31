@@ -1,0 +1,12 @@
+
+StartChar: tenroman
+Encoding: 8569 8569 449
+Width: 480
+VWidth: 1076
+Flags: W
+HStem: 0 90<45 105 375 435> 202 90<75 195 285 405> 405 90<45 105 375 435>
+VStem: 195 90<158 202 292 338>
+LayerCount: 2
+Fore
+Refer: 26 120 N 1 0 0 1 0 0 2
+EndChar

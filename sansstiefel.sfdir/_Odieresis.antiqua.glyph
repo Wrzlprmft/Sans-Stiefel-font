@@ -1,0 +1,13 @@
+
+StartChar: Odieresis.antiqua
+Encoding: 57478 57478 561
+Width: 570
+VWidth: 0
+Flags: W
+HStem: 0 90<218.626 351.374> 720 90<220.655 349.345> 875 120<105 195 345 435>
+VStem: 45 90<230.764 600.442> 105 90<875 995> 345 90<875 995> 435 90<230.764 600.442>
+LayerCount: 2
+Fore
+Refer: 187 168 S 1 0 0 1 75 275 2
+Refer: 546 57439 N 1 0 0 1 0 0 3
+EndChar

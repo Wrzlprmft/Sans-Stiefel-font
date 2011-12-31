@@ -1,0 +1,28 @@
+
+StartChar: one
+Encoding: 49 49 132
+Width: 240
+VWidth: 1024
+Flags: W
+HStem: 0 21G<114 195> 700 20G<45 126>
+VStem: 45 120<630 706.622>
+LayerCount: 2
+Fore
+SplineSet
+45 630 m 1
+ 45 720 l 1
+ 120 720 l 2
+ 132 720 144 715 152 707 c 0
+ 160 699 165 687 165 675 c 2
+ 165 90 l 1
+ 195 90 l 1
+ 195 0 l 5
+ 120 0 l 2
+ 108 0 96 5 88 13 c 0
+ 80 21 75 33 75 45 c 2
+ 75 630 l 1
+ 45 630 l 1
+EndSplineSet
+Substitution2: "'tnum' Tabellenziffern-1" one.fitted
+Substitution2: "'onum' Minuskelziffern-1" one.oldstyle
+EndChar

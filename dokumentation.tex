@@ -2,82 +2,68 @@
 
 \usepackage{xltxtra}
 
-\usepackage{adjustbox, alltt, array, balance, caption, calc, color, dblfloatfix, enumerate, enumitem, exscale, fancybox, fancyhdr, fixmath, framed, gensymb, graphicx, graphics, hyphenat, icomma, lipsum, listings, mathcomp, mathtools, mathdots, multicol, multirow, ngerman, nicefrac, placeins, relsize, rotating, tabularx, tikz, titlesec, units, xifthen, xspace, xtab}
+\usepackage{array, calc, color, enumitem, graphicx, graphics, hyphenat, icomma, ngerman, relsize, tabularx, tikz, xifthen, xspace}
 
 \setromanfont[Mapping=tex-text]{Sans Stiefel}
 \setsansfont[Mapping=tex-text, Scale=MatchLowercase]{Linux Biolinum O}
 \setmonofont[Scale=MatchLowercase]{DejaVu Sans Mono}
+
+\setlogokern{eL}{0.0em} 
+\setlogokern{aT}{-0.075em}
 
 \usepackage{polyglossia}
 \setdefaultlanguage[spelling=new, latesthyphen=true, script=fraktur, babelshorthands=true]{german}
 
 \usepackage[colorlinks=true, linkcolor=black, citecolor=black, urlcolor=black]{hyperref}
 
-% ----Seite einstellen----
-\setlength{\columnsep}{1 cm}
-\setlength{\textwidth}{17 cm}
-\setlength{\evensidemargin}{2 cm} %Abstand Text – äußerer Rand
 
+% ----Seite einstellen----
+\setlength{\textwidth}{17 cm}
 \setlength{\hoffset}{-1 in}
-\setlength{\oddsidemargin}{21 cm}
-\addtolength{\oddsidemargin}{-\textwidth}
-\addtolength{\oddsidemargin}{-\evensidemargin}
+\setlength{\oddsidemargin}{2 cm}
 
 \setlength{\voffset}{-1 in}
 \setlength{\topmargin}{1.6 cm}
-
 \setlength{\headsep}{0 pt}
 \setlength{\headheight}{0 pt}
-\setlength{\textheight}{29.7 cm}
-\addtolength{\textheight}{-2 \topmargin}
-\addtolength{\textheight}{- \headheight}
-\addtolength{\textheight}{- \headsep}
+\setlength{\textheight}{26.5 cm}
 
-\frenchspacing
+\pagestyle{plain}
 
-\setcounter{secnumdepth}{0}
-\setcounter{tocdepth}{1}
 
-\widowpenalty=1000
-\clubpenalty=1000
-
+% ----Textsatzregeln----
 \hyphenpenalty=500
 \pretolerance=150
 \tolerance=1500
 \setlength{\emergencystretch}{\textwidth}
-
+\frenchspacing
 \renewcommand{\/}{\ZWNJhyp{}}
-
-\title{Sans Stiefel}
-\author{Gerrit Ansmann}
-\date{\today}
-
-\setlogokern{eL}{0.075em} 
-\setlogokern{Xe}{-0.2em} 
-\setlogokern{aT}{-0.075em}
-%\setlogodrop{0.4ex}
-
-\newlength{\lw}
-\newenvironment{Kasten}[2][3pt]{%
-\begin{center}
-	\setlength{\lw}{#1}%
-	\begin{tikzpicture}[line width=\lw, line join=round]%
-		\node [inner sep=3\lw, text width=#2-10\lw]%
-			(BOXCONTENT)%
-			\bgroup\ignorespaces%
-}{
-			\egroup;
-		\draw ([xshift=-\lw]BOXCONTENT.north west) -- ([xshift=\lw]BOXCONTENT.north east);
-		\draw ([xshift=-\lw]BOXCONTENT.south west) -- ([xshift=\lw]BOXCONTENT.south east);
-		\draw ([xshift=-\lw, yshift=-2\lw]BOXCONTENT.north west) -- ++(\lw,0) -- ([yshift=2\lw]BOXCONTENT.south west) -- ++(-\lw,0);
-		\draw ([xshift=\lw, yshift=-2\lw]BOXCONTENT.north east) -- ++(-\lw,0) -- ([yshift=2\lw]BOXCONTENT.south east) -- ++(+\lw,0);
-	\end{tikzpicture}
-\end{center}
-}
-
-\newcolumntype{C}{>{\centering\arraybackslash}X}
-
 \renewcommand{\bfseries}{\xspace\addfontfeature{LetterSpace=15.0,WordSpace=1.5,Ligatures={Required,NoCommon}}}
+
+
+% ----Für Tabellen----
+\newcolumntype{C}{>{\centering\arraybackslash}X}
+\renewcommand{\arraystretch}{1.3}
+
+
+% ----Hilfsbefehle----
+\newlength{\lw}
+\newenvironment{Kasten}[2][2pt]{%
+	\begin{center}
+		\setlength{\lw}{#1}%
+		\begin{tikzpicture}[line width=\lw, line join=round]%
+			\node [inner sep=3\lw, text width=#2-10\lw]%
+				(BOXCONTENT)%
+				\bgroup\ignorespaces%
+}{
+				\egroup;
+			\draw ([xshift=-\lw]BOXCONTENT.north west) -- ([xshift=\lw]BOXCONTENT.north east);
+			\draw ([xshift=-\lw]BOXCONTENT.south west) -- ([xshift=\lw]BOXCONTENT.south east);
+			\draw ([xshift=-\lw, yshift=-2\lw]BOXCONTENT.north west) -- ++(\lw,0) -- ([yshift=2\lw]BOXCONTENT.south west) -- ++(-\lw,0);
+			\draw ([xshift=\lw, yshift=-2\lw]BOXCONTENT.north east) -- ++(-\lw,0) -- ([yshift=2\lw]BOXCONTENT.south east) -- ++(+\lw,0);
+		\end{tikzpicture}
+	\end{center}
+}
 
 \newcommand{\Beispiel}[2][]{%
 \normalsize%
@@ -86,20 +72,24 @@
 \ifthenelse{\isin{=}{#1}}{\addfontfeature{#1}}{}#2%
 }
 
-\renewcommand{\arraystretch}{1.3}
 
+% ----Metadata----
+\title{Sans Stiefel}
+\author{Gerrit Ansmann}
+\date{\today}
 
+% ------------------------------------------
 
 \begin{document}
 
 \hyphenation{Schaft-ſtie-fel-gro-tesk Schaft-ſtie-fel-gro-tes-ken}
 
-\begin{Kasten}{0.9\linewidth}
+\begin{Kasten}[4pt]{0.61\linewidth}
 	\centering
 	\textlarger[4]{\textbf{Sans }\addfontfeature{CharacterVariant=1:1} \textbf{ Stiefel}}\\[\baselineskip]
-	\textlarger[1]{OpenType-Funktionen mit Beiſpielen für {\addfontfeature{StylisticSet=1} \XeLaTeX}}\\[\baselineskip]	
+	\textlarger[1]{OpenType-Funktionen\linebreak mit Beiſpielen für {\addfontfeature{StylisticSet=1} \XeLaTeX}}\\[\baselineskip]	
 	Gerrit Ansmann, \today
-	
+
 \end{Kasten}
 
 \vfill
@@ -133,7 +123,7 @@ In Sans Stiefel ſind zur Zeit 55~Ligaturen ſtandardmäßig aktiviert. Hier\/zu
 All dieſe Ligaturen ſind mit dem OpenType-Feature \texttt{liga} verknüpft und können mit der \textsf{fontspec}-Einſtellung \texttt{Ligatures=NoCommon} deaktiviert werden, wovon aber abzuraten iſt:
 \begin{Kasten}{0.9\linewidth}
 	\begin{tabularx}{\linewidth}{C C}
-		\Beispiel[Standard]{Quaſtenfloſſer Schmerzmittel Charakterſtück}& \Beispiel[Ligatures=NoCommon]{Quaſtenfloſſer Schmerzmittel Charakterſtück}
+		\Beispiel[Standard]{offenſichtlich Schmerzmittel Charakterſtück}& \Beispiel[Ligatures=NoCommon]{offenſichtlich Schmerzmittel Charakterſtück}
 	\end{tabularx}
 \end{Kasten}
 
@@ -148,8 +138,8 @@ Einzelne Ligaturen können mit einem Bindehemmer (im Beiſpiel \verb⚥\/⚥) un
 Die Ligaturen ch, ck, ſt und tz ſind zuſätzlich mit dem OpenType-Feature \texttt{rlig} verknüpft, um automatiſches Sperren zu ermöglichen, z.\,B. via:
 \begin{verbatim}
 \renewcommand {\bfseries} {\xspace \addfontfeature{
-   LetterSpace = 15.0, WordSpace = 1.5,
-   Ligatures = {Required, NoCommon} }} 
+       LetterSpace = 15.0, WordSpace = 1.5,
+       Ligatures = {Required, NoCommon} }} 
 \end{verbatim}
 
 Ähnlich den Ligaturen gibt es ſchließlich noch eine kurze Form des~ſ für den Fall, daſs dieſem ein beinahe kollidierender Buchſtabe wie ä folgt und eine Ligatur oder poſitives Kerning keine Option ſind:
@@ -168,7 +158,7 @@ Mit dem OpenType-Feature \texttt{cv01} iſt eine alternative Form des S verknüp
 \end{Kasten}
 
 \subsection{Antiqua-Majuskeln}
-In den meiſten gebrochenen Schriften ſind Großbuchſtaben unſchön und ſchwer zu leſen, wenn ſie im Verbund auf\/treten. Stattdeſſen wird normalerweiſe eine externe Antiqua genutzt. Sans Stiefel enthält jedoch Antiqua-Verſionen der in der deutſchen Sprache auf\/tretenden Großbuchſtaben. Dieſe werden mittels OpenType automatiſch genutzt, ſobald zwei Großbuchſtaben aufeinanderfolgen, können aber auch über das OpenType-Feature \texttt{ss01} gezielt aktiviert werden:
+In den meiſten gebrochenen Schriften ſind Großbuchſtaben unſchön und ſchwer zu leſen, wenn ſie im Verbund auf\/treten. Stattdeſſen wird normalerweiſe eine externe Antiqua genutzt. Für die in der deutſchen Sprache auf\/tretenden Großbuchſtaben (A–Z, Ä, Ö, Ü, ẞ) enthält Sans Stiefel jedoch eigene Antiqua-Verſionen. Dieſe werden mittels OpenType automatiſch genutzt, ſobald zwei Großbuchſtaben aufeinanderfolgen, können aber auch über das OpenType-Feature \texttt{ss01} gezielt aktiviert werden:
 \begin{Kasten}{0.9\linewidth}
 	\begin{tabularx}{\linewidth}{>{\hsize=.75\hsize}C >{\hsize=1.25\hsize}C}
 		\Beispiel{MAJUSKEL} &\Beispiel{M\/A\/J\/U\/S\/K\/E\/L} \\

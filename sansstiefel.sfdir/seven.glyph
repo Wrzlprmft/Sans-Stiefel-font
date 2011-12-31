@@ -1,0 +1,29 @@
+
+StartChar: seven
+Encoding: 55 55 138
+Width: 480
+VWidth: 1076
+Flags: W
+HStem: 0 21G<203 285> 630 90<75 306>
+VStem: 165 120<17.3765 90>
+LayerCount: 2
+Fore
+SplineSet
+75 630 m 1
+ 75 720 l 1
+ 363 720 l 2
+ 377 720 390 714 398 703 c 0
+ 404 695 408 685 408 675 c 0
+ 408 672 408 667 407 664 c 2
+ 267 90 l 1
+ 285 90 l 1
+ 285 0 l 1
+ 210 0 l 2
+ 196 0 183 6 175 17 c 0
+ 169 25 165 35 165 45 c 0
+ 165 48 165 53 166 56 c 2
+ 306 630 l 1
+ 75 630 l 1
+EndSplineSet
+Substitution2: "'onum' Minuskelziffern-1" seven.oldstyle
+EndChar

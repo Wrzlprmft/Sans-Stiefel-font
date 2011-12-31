@@ -1,0 +1,12 @@
+
+StartChar: oneroman
+Encoding: 8560 8560 440
+Width: 240
+VWidth: 1076
+Flags: W
+HStem: 0 21<114 195> 475 20<45 126> 570 120<75 165>
+VStem: 45 120<405 481.622> 75 90<90 405 570 690>
+LayerCount: 2
+Fore
+Refer: 9 105 N 1 0 0 1 0 0 2
+EndChar

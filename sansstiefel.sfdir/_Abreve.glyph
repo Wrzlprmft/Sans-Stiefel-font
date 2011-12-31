@@ -1,0 +1,13 @@
+
+StartChar: Abreve
+Encoding: 258 258 237
+Width: 600
+VWidth: 0
+Flags: W
+HStem: 0 21<296.5 303.5 474 555> 720 90<75 247.375 525 555>
+VStem: 296 89<523.391 681.461> 435 90<163 720> 435 120<13.3779 62 720 796.622>
+LayerCount: 2
+Fore
+Refer: 355 774 N 1 0 0 1 120 284 2
+Refer: 79 65 N 1 0 0 1 0 0 3
+EndChar

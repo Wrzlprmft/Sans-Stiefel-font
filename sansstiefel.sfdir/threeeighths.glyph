@@ -1,0 +1,27 @@
+
+StartChar: threeeighths
+Encoding: 8540 8540 421
+Width: 930
+VWidth: 955
+Flags: W
+HStem: 0 90<225 257> 400 20<685 696.5> 720 90<673 705> 790 20<235 246.5>
+LayerCount: 2
+Fore
+SplineSet
+225 0 m 1xe0
+ 225 90 l 1
+ 257 90 l 1
+ 605 785 l 2
+ 609 792 614 799 621 803 c 0
+ 628 807 637 810 645 810 c 2xd0
+ 705 810 l 1
+ 705 720 l 1
+ 673 720 l 1
+ 325 25 l 2
+ 321 18 316 11 309 7 c 0
+ 302 3 293 0 285 0 c 2
+ 225 0 l 1xe0
+EndSplineSet
+Refer: 225 179 N 1 0 0 1 0 0 2
+Refer: 463 8312 N 1 0 0 1 450 -389 2
+EndChar

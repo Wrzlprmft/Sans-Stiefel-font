@@ -1,0 +1,33 @@
+
+StartChar: one.fitted
+Encoding: 57361 57361 578
+Width: 480
+VWidth: 0
+Flags: W
+HStem: 0 21G<294 375> 700 20G<294 306>
+VStem: 255 90<90 579>
+LayerCount: 2
+Fore
+SplineSet
+75 480 m 1
+ 75 570 l 1
+ 104 570 l 1
+ 271 710 l 2
+ 279 716 289 720 299 720 c 2
+ 300 720 l 2
+ 312 720 323 715 331 707 c 0
+ 340 699 345 687 345 675 c 2
+ 345 90 l 1
+ 375 90 l 1
+ 375 0 l 1
+ 300 0 l 2
+ 288 0 276 5 268 13 c 0
+ 260 21 255 33 255 45 c 2
+ 255 579 l 1
+ 149 490 l 2
+ 141 483 130 480 120 480 c 2
+ 75 480 l 1
+EndSplineSet
+Substitution2: "'pnum' Proportionalziffern-1" one
+Substitution2: "'onum' Minuskelziffern-1" one.fitted.oldstyle
+EndChar

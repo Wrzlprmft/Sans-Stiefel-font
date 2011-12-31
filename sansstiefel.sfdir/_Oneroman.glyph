@@ -1,0 +1,26 @@
+
+StartChar: Oneroman
+Encoding: 8544 8544 424
+Width: 330
+VWidth: 0
+Flags: W
+HStem: 0 90<45 120 210 285> 630 90<45 120 210 285>
+VStem: 45 240<0 90 630 720>
+LayerCount: 2
+Fore
+SplineSet
+45 0 m 1
+ 45 90 l 1
+ 120 90 l 1
+ 120 630 l 1
+ 45 630 l 1
+ 45 720 l 1
+ 285 720 l 5
+ 285 630 l 1
+ 210 630 l 1
+ 210 90 l 1
+ 285 90 l 1
+ 285 0 l 1
+ 45 0 l 1
+EndSplineSet
+EndChar
