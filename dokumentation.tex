@@ -117,7 +117,7 @@ In Sans Stiefel ſind zur Zeit 55~Ligaturen ſtandardmäßig aktiviert. Hier\/zu
 	\item ſeltene wie ct, fj, kk, rꝛ, ſk oder ſl,
 	\item vermutlich nur in Namen oder Kunſtwörtern auf\/tauchende wie fh, fk, ftz oder Tl,
 	\item für Fremdſprachen wie (Alt"~)Engliſch, Isländiſch oder Niederländiſch gedachte wie ſh, fþ, fð oder ſĳ,
-	\item für andere Paradigmata der ſ"~Schreibung (einmal mehr: Engliſch) gedachte wie ſſb,
+	\item für andere Paradigmata der ſ"~Schreibung (einmal mehr: andere Sprachen) gedachte wie ſſb,
 	\item ſolche, bei denen ſelbſt ich bisher noch keine Idee habe, wozu ſie gut ſein könnten, wie ſtz.
 \end{itemize}
 All dieſe Ligaturen ſind mit dem OpenType-Feature \texttt{liga} verknüpft und können mit der \textsf{fontspec}-Einſtellung \texttt{Ligatures=NoCommon} deaktiviert werden, wovon aber abzuraten iſt:
@@ -135,7 +135,7 @@ Einzelne Ligaturen können mit einem Bindehemmer (im Beiſpiel \verb⚥\/⚥) un
 	\end{tabularx}
 \end{Kasten}
 
-Die Ligaturen ch, ck, ſt und tz ſind zuſätzlich mit dem OpenType-Feature \texttt{rlig} verknüpft, um automatiſches Sperren zu ermöglichen, z.\,B. via:
+Die Ligaturen ch, ck, ſt und tz ſind zuſätzlich mit dem OpenType-Feature \texttt{rlig} verknüpft, um ein korrektes Sperren zu ermöglichen. Dies wurde z.\,B. in den Überſchriften dieſes Dokuments wie folgt erreicht:
 \begin{verbatim}
 \renewcommand {\bfseries} {\xspace \addfontfeature{
        LetterSpace = 15.0, WordSpace = 1.5,
