@@ -3,7 +3,10 @@ StartChar: fiftyroman
 Encoding: 8572 8572 452
 Width: 405
 VWidth: 0
-Flags: HMW
+Flags: W
+HStem: 0 90<255 285> 405 90<45 75 165 171> 720 90<165 210>
+VStem: 75 90<158 405 495 720> 240 90<599 698>
+DStem2: 165 158 93 99 0.8 -0.6<0 112.8> 171 495 232 425 0.5547 0.83205<0 124.808>
 LayerCount: 2
 Fore
 Refer: 386 8467 N 1 0 0 1 0 0 2

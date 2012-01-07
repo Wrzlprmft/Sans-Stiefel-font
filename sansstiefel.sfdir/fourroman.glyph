@@ -3,7 +3,10 @@ StartChar: fourroman
 Encoding: 8563 8563 443
 Width: 660
 VWidth: 1076
-Flags: HMW
+Flags: W
+HStem: 0 90<165 195> 405 90<45 75 225 255 465 495>
+VStem: 75 90<90 405 570 690> 255 90<158 405> 495 90<158 405>
+DStem2: 345 158 273 99 0.8 -0.6<0 94.2> 420 101 447 9 0.8 0.6<0 94.2>
 LayerCount: 2
 Fore
 Refer: 24 118 N 1 0 0 1 180 0 2

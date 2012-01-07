@@ -4,6 +4,9 @@ Encoding: 57358 57358 583
 Width: 480
 VWidth: 0
 Flags: MW
+HStem: -180 90<45 75 285 315> 405 90<45 75 285 315> 720 90<469 495>
+VStem: 75 90<-90 405 495 622> 315 90<-90 405 495 647>
+DStem2: 93 681 165 622 0.8 0.6<22.2 122.2> 351 730 405 656 0.707107 0.707107<0 76.3675>
 LayerCount: 2
 Fore
 SplineSet
@@ -21,8 +24,8 @@ SplineSet
  351 730 l 1
  418 797 l 2
  426 805 438 810 450 810 c 2
- 495 810 l 1
- 495 720 l 1
+ 495 810 l 5
+ 495 720 l 5
  469 720 l 1
  405 656 l 1
  405 -135 l 2
@@ -44,5 +47,6 @@ SplineSet
  45 -180 l 1
  45 -90 l 1
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'liga' Ligaturen-1" longs longs.short
 EndChar

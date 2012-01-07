@@ -3,7 +3,10 @@ StartChar: arrowright
 Encoding: 8594 8594 390
 Width: 1080
 VWidth: 0
-Flags: MW
+Flags: W
+HStem: 38 90<743 768> 240 90<45 881> 442 90<743 768>
+DStem2: 881 330 1022 317 0.708851 -0.705359<-159.1 0> 1022 253 881 240 0.708851 0.705359<-268.218 -109.118>
+CounterMasks: 1 e0
 LayerCount: 2
 Fore
 Refer: 388 8592 S -1 -0 0 -1 1080 570 2

@@ -3,7 +3,9 @@ StartChar: bracketright
 Encoding: 93 93 171
 Width: 360
 VWidth: 530
-Flags: HW
+Flags: W
+HStem: -180 90<45 195> 720 90<45 195>
+VStem: 195 90<-90 720>
 LayerCount: 2
 Fore
 Refer: 155 91 N -1 0 0 -1 360 630 2

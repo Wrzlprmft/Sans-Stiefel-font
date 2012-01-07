@@ -3,7 +3,9 @@ StartChar: Udieresis.antiqua
 Encoding: 57484 57484 562
 Width: 630
 VWidth: 0
-Flags: HMW
+Flags: W
+HStem: 0 90<248.626 381.374> 720 90<60 75 555 570> 869 120<150 240 390 480>
+VStem: 75 90<231.968 720> 150 90<869 989> 390 90<869 989> 465 90<231.968 720>
 LayerCount: 2
 Fore
 Refer: 187 168 N 1 0 0 1 120 269 2

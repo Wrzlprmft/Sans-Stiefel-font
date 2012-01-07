@@ -3,7 +3,10 @@ StartChar: sixroman
 Encoding: 8565 8565 445
 Width: 660
 VWidth: 1076
-Flags: HMW
+Flags: W
+HStem: 0 90<585 615> 405 90<45 75 285 315 465 495>
+VStem: 75 90<158 405> 315 90<158 405> 495 90<90 405 570 690>
+DStem2: 165 158 93 99 0.8 -0.6<0 94.2> 240 101 267 9 0.8 0.6<0 94.2>
 LayerCount: 2
 Fore
 Refer: 9 105 N 1 0 0 1 420 0 2

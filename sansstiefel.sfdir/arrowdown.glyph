@@ -3,8 +3,11 @@ StartChar: arrowdown
 Encoding: 8595 8595 391
 Width: 584
 VWidth: 0
-Flags: HMW
+Flags: W
+VStem: 45 90<87 112> 247 90<-26 810> 449 90<87 112>
+DStem2: 260 -167 247 -26 0.705359 -0.708851<-268.218 -109.118> 526 36 449 87 0.705359 0.708851<-177.262 -18.1612>
+CounterMasks: 1 e0
 LayerCount: 2
 Fore
-Refer: 388 8592 S 0 1 -1 0 577 -225 2
+Refer: 389 8593 N -1 0 0 -1 584 630 2
 EndChar

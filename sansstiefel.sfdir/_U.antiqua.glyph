@@ -4,6 +4,8 @@ Encoding: 57445 57445 552
 Width: 630
 VWidth: 2167
 Flags: MW
+HStem: 0 90<248.626 381.374> 720 90<60 75 555 570>
+VStem: 75 90<231.968 720> 465 90<231.968 720>
 LayerCount: 2
 Fore
 SplineSet
