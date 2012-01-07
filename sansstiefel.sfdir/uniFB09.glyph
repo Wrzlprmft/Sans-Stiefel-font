@@ -3,7 +3,10 @@ StartChar: uniFB09
 Encoding: 64265 64265 409
 Width: 465
 VWidth: 531
-Flags: MW
+Flags: W
+HStem: -180 90<45 75> 0 90<285 315> 405 90<45 75> 720 90<255 315>
+VStem: 75 90<-90 405 495 652> 315 90<90 720>
+DStem2: 93 711 165 652 0.8 0.6<22.2 135>
 LayerCount: 2
 Fore
 Refer: 58 57411 N 1 0 0 1 0 0 2

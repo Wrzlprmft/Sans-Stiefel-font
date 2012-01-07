@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1322072954
-ModificationTime: 1325943420
+ModificationTime: 1325955402
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -174,8 +174,8 @@ StdVW 4 [90]
 StemSnapH 4 [90]
 StemSnapV 4 [90]
 ForceBold 5 false
-BlueValues 45 [0 0 405 405 540 540 630 630 720 720 810 810]
-OtherBlues 19 [-90 -90 -180 -180]
+BlueValues 29 [0 0 495 495 540 540 720 720]
+OtherBlues 19 [-180 -180 -90 -90]
 EndPrivate
 TeXData: 1 0 0 254200 127100 84733 524288 1048576 84733 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 EndSplineFont

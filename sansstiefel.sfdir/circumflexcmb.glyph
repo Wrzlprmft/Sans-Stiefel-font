@@ -3,7 +3,7 @@ StartChar: circumflexcmb
 Encoding: 770 770 354
 Width: 390
 VWidth: 545
-Flags: W
+Flags: HMW
 HStem: 585 90<30 60 330 360>
 DStem2: 60 675 102 594 0.8 0.6<0 101.4> 222 756 195 664 0.8 -0.6<33.6 135>
 LayerCount: 2

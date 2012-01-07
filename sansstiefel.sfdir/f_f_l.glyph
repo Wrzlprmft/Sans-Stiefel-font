@@ -3,7 +3,10 @@ StartChar: f_f_l
 Encoding: 64260 64260 41
 Width: 705
 VWidth: 531
-Flags: MW
+Flags: HMW
+HStem: -180 90<45 75 285 315> 0 90<525 555> 405 90<45 75 165 315 405 510> 720 90<495 555>
+VStem: 75 90<-90 405 495 622> 315 90<-90 405 495 647> 555 90<90 720>
+DStem2: 93 681 165 622 0.8 0.6<22.2 122.2> 355 728 405 652 0.80196 0.597378<0 107.495>
 LayerCount: 2
 Fore
 SplineSet
@@ -59,5 +62,5 @@ SplineSet
 EndSplineSet
 Ligature2: "'liga' Ligaturen-1" f f l
 Ligature2: "'liga' Ligaturen-1" f f l
-LCarets2: 2 240 480 
+LCarets2: 2 242 480 
 EndChar
