@@ -3,8 +3,7 @@ StartChar: Tenroman
 Encoding: 8553 8553 433
 Width: 690
 VWidth: 0
-Flags: W
-HStem: 0 90<45 125 231 459 565 645> 630 90<45 125 231 459 565 645>
+Flags: MW
 LayerCount: 2
 Fore
 SplineSet

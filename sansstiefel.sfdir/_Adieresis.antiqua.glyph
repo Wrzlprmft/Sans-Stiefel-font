@@ -3,9 +3,7 @@ StartChar: Adieresis.antiqua
 Encoding: 57460 57460 560
 Width: 600
 VWidth: 0
-Flags: W
-HStem: 0 90<45 80 520 555> 405 90<263 338> 720 90<250 350> 869 120<135 225 375 465>
-VStem: 135 90<869 989> 263 75<405 495> 375 90<869 989>
+Flags: HMW
 LayerCount: 2
 Fore
 Refer: 187 168 N 1 0 0 1 105 269 2

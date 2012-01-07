@@ -3,9 +3,7 @@ StartChar: Hundredroman
 Encoding: 8557 8557 437
 Width: 525
 VWidth: 0
-Flags: W
-HStem: 0 90<299.831 480> 630 90<299.831 480>
-VStem: 75 90<224.797 495.203>
+Flags: MW
 LayerCount: 2
 Fore
 SplineSet

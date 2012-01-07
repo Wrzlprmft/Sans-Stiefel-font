@@ -3,9 +3,7 @@ StartChar: f_l
 Encoding: 64258 64258 40
 Width: 465
 VWidth: 531
-Flags: W
-HStem: -180 21G<45 126> 0 21G<285 366> 405 90<45 75 165 270> 720 90<255 315>
-VStem: 75 90<-90 405 495 652>
+Flags: MW
 LayerCount: 2
 Fore
 SplineSet

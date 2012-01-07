@@ -3,6 +3,6 @@ StartChar: thinspace
 Encoding: 8201 8201 213
 Width: 99
 VWidth: 0
-Flags: W
+Flags: MW
 LayerCount: 2
 EndChar

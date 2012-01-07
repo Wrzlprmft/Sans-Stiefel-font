@@ -3,9 +3,9 @@ StartChar: one.superior
 Encoding: 185 185 227
 Width: 240
 VWidth: 0
-Flags: W
-HStem: 790 20G<45 126>
-VStem: 45 120<720 796.622>
+Flags: MW
+HStem: 390 90<165 195> 720 90<45 75>
+VStem: 75 90<480 720>
 LayerCount: 2
 Fore
 SplineSet
@@ -14,13 +14,13 @@ SplineSet
  120 810 l 2
  132 810 144 805 152 797 c 0
  160 789 165 777 165 765 c 2
- 165 480 l 1
+ 165 480 l 5
  195 480 l 1
  195 390 l 1
  120 390 l 2
  108 390 96 395 88 403 c 0
  80 411 75 423 75 435 c 2
- 75 720 l 1
+ 75 720 l 5
  45 720 l 1
 EndSplineSet
 EndChar

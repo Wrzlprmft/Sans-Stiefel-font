@@ -3,14 +3,14 @@ StartChar: guilsinglright
 Encoding: 8250 8250 378
 Width: 270
 VWidth: 0
-Flags: W
-HStem: 475 20G<45 94>
-VStem: 45 180
+Flags: MW
+HStem: 45 90<45 62> 405 90<45 62>
+DStem2: 130 470 62 405 0.447214 -0.894427<27.7272 178.885> 62 135 130 70 0.447214 0.894427<0 151.158>
 LayerCount: 2
 Fore
 SplineSet
-45 45 m 1
- 45 135 l 1
+45 45 m 5
+ 45 135 l 5
  62 135 l 1
  130 270 l 1
  62 405 l 1
@@ -25,6 +25,6 @@ SplineSet
  130 70 l 2
  126 63 121 56 114 52 c 0
  107 48 98 45 90 45 c 2
- 45 45 l 1
+ 45 45 l 5
 EndSplineSet
 EndChar

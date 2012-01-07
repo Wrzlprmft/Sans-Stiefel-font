@@ -3,8 +3,9 @@ StartChar: asterisk
 Encoding: 42 42 157
 Width: 420
 VWidth: 530
-Flags: W
+Flags: MW
 HStem: 450 90<75 96 324 345> 585 90<45 126 294 375> 720 90<75 96 324 345>
+DStem2: 157 790 96 720 0.5547 -0.83205<24.4068 78.4901 246.564 300.648> 96 540 157 470 0.5547 0.83205<0 54.0833 222.157 276.241>
 CounterMasks: 1 e0
 LayerCount: 2
 Fore

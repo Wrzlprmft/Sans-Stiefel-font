@@ -3,8 +3,7 @@ StartChar: approxequal
 Encoding: 8776 8776 398
 Width: 450
 VWidth: 545
-Flags: W
-HStem: 225 90<45 90 360 405> 405 90<45 90 360 405> 520 20G<160 171.5>
+Flags: MW
 LayerCount: 2
 Fore
 SplineSet

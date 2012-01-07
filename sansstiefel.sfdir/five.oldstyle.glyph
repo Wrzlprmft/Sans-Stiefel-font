@@ -3,9 +3,7 @@ StartChar: five.oldstyle
 Encoding: 57381 57381 573
 Width: 480
 VWidth: 1076
-Flags: W
-HStem: -180 21G<235 245> -20 20G<75 125> 520 20G<116.5 128 355 405>
-VStem: 75 90<292 405> 315 90<-22 68>
+Flags: MW
 LayerCount: 2
 Fore
 SplineSet

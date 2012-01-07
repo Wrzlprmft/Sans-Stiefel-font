@@ -3,22 +3,22 @@ StartChar: quoteleft
 Encoding: 8216 8216 361
 Width: 240
 VWidth: 1076
-Flags: W
-HStem: 540 270<81.4806 158.519>
-VStem: 45 120<720 803.519>
+Flags: MW
+HStem: 540 90<165 195> 720 90<45 75>
+VStem: 75 90<630 720>
 LayerCount: 2
 Fore
 SplineSet
 45 720 m 1
  45 810 l 1
  120 810 l 2
- 145 810 165 790 165 765 c 2
+ 145 810 165 790 165 765 c 6
  165 630 l 1
  195 630 l 1
  195 540 l 1
  120 540 l 2
  95 540 75 560 75 585 c 2
- 75 720 l 1
+ 75 720 l 5
  45 720 l 1
 EndSplineSet
 EndChar

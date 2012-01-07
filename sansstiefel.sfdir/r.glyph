@@ -3,8 +3,8 @@ StartChar: r
 Encoding: 114 114 18
 Width: 420
 VWidth: 1076
-Flags: W
-HStem: 0 90<45 75 242 270> 405 90<45 75 339 375> 520 20G<219.5 228>
+Flags: MW
+HStem: 0 90<45 75 242 270> 405 90<45 75 339 375>
 VStem: 75 90<156 384>
 LayerCount: 2
 Fore

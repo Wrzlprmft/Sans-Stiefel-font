@@ -3,9 +3,7 @@ StartChar: fiveroman
 Encoding: 8564 8564 444
 Width: 465
 VWidth: 1076
-Flags: W
-HStem: 0 21<235 245> 405 90<45 75 285 315>
-VStem: 45 120<405 481.622> 75 90<158 405> 285 120<405 481.622> 315 90<158 405>
+Flags: HMW
 LayerCount: 2
 Fore
 Refer: 24 118 N 1 0 0 1 0 0 2

@@ -3,9 +3,7 @@ StartChar: Q.antiqua
 Encoding: 57441 57441 548
 Width: 600
 VWidth: 2167
-Flags: W
-HStem: 0 90<218.626 342.206 456.234 525> 135 90<255 336.643> 720 90<220.655 349.345>
-VStem: 45 90<230.764 600.442> 435 90<233.631 600.442>
+Flags: MW
 LayerCount: 2
 Fore
 SplineSet

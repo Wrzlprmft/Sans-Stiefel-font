@@ -3,9 +3,10 @@ StartChar: f
 Encoding: 102 102 6
 Width: 300
 VWidth: 1076
-Flags: W
-HStem: -180 21G<45 126> 405 90<45 75 165 285> 720 90<255 315>
+Flags: MW
+HStem: -180 90<45 75> 405 90<45 75 165 285> 720 90<255 315>
 VStem: 75 90<-90 405 495 652>
+DStem2: 93 711 165 652 0.8 0.6<22.2 135>
 LayerCount: 2
 Fore
 SplineSet

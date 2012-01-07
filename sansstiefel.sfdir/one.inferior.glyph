@@ -4,8 +4,8 @@ Encoding: 8321 8321 466
 Width: 240
 VWidth: -570
 Flags: W
-HStem: 220 20<45 126>
-VStem: 45 120<150 226.622>
+HStem: -180 90<165 195> 150 90<45 75>
+VStem: 75 90<-90 150>
 LayerCount: 2
 Fore
 Refer: 227 185 N 1 0 0 1 0 -570 2

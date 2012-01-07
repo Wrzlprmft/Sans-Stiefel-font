@@ -3,8 +3,8 @@ StartChar: plus
 Encoding: 43 43 149
 Width: 450
 VWidth: 1076
-Flags: W
-HStem: 315 90<45 180 270 405> 520 20G<180 270>
+Flags: MW
+HStem: 315 90<45 180 270 405>
 VStem: 180 90<180 315 405 540>
 LayerCount: 2
 Fore

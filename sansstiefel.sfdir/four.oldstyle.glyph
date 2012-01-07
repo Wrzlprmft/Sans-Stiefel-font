@@ -3,13 +3,11 @@ StartChar: four.oldstyle
 Encoding: 57380 57380 572
 Width: 480
 VWidth: 1076
-Flags: W
-HStem: -180 21G<354 435> 0 90<150 315 405 435> 520 20G<285 366>
-VStem: 60 90<90 181> 285 120<450 526.622> 315 90<-90 0 90 450>
+Flags: MW
 LayerCount: 2
 Fore
 SplineSet
-60 45 m 6xf4
+60 45 m 6
  60 195 l 6
  60 204 63 213 68 220 c 6
  158 355 l 6
@@ -20,12 +18,12 @@ SplineSet
  150 181 l 5
  150 90 l 5
  315 90 l 5
- 315 450 l 5xf4
+ 315 450 l 5
  285 450 l 5
  285 540 l 5
  360 540 l 6
  372 540 384 535 392 527 c 4
- 400 519 405 507 405 495 c 6xf8
+ 400 519 405 507 405 495 c 6
  405 90 l 5
  435 90 l 5
  435 0 l 5
@@ -39,7 +37,7 @@ SplineSet
  315 0 l 5
  105 0 l 6
  93 0 81 5 73 13 c 4
- 65 21 60 33 60 45 c 6xf4
+ 65 21 60 33 60 45 c 6
 EndSplineSet
 Substitution2: "'lnum' Versalziffern-1" four
 EndChar

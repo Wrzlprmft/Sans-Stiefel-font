@@ -3,10 +3,7 @@ StartChar: rrot
 Encoding: 42843 42843 19
 Width: 330
 VWidth: 1076
-Flags: W
-HStem: 0 90<45 89 242 270> 405 90<45 100>
-VStem: 45 225<-53 0>
-DStem2: 89 90 198 127 0.345705 0.938343<72.4006 245.204>
+Flags: MW
 LayerCount: 2
 Fore
 SplineSet

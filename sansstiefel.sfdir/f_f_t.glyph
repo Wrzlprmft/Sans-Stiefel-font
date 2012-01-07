@@ -3,10 +3,7 @@ StartChar: f_f_t
 Encoding: 57397 57397 47
 Width: 810
 VWidth: 531
-Flags: W
-HStem: -180 90<45 75 285 315> 0 21G<715 765> 405 90<45 75 165 315 405 555 645 765> 790 20G<475 486.5>
-VStem: 75 90<-90 405 495 622> 315 90<-90 405 495 647> 555 90<157 405 495 652>
-CounterMasks: 1 0e
+Flags: MW
 LayerCount: 2
 Fore
 SplineSet

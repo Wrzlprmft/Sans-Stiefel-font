@@ -3,10 +3,7 @@ StartChar: Eightroman
 Encoding: 8551 8551 431
 Width: 1305
 VWidth: 0
-Flags: W
-HStem: 0 90<135 284 406 615 705 855 945 1095 1185 1260> 630 90<45 117 211 479 573 615 705 855 945 1095 1185 1260>
-VStem: 615 90<90 630> 855 90<90 630> 1095 90<90 630>
-CounterMasks: 1 38
+Flags: MW
 LayerCount: 2
 Fore
 SplineSet

@@ -3,8 +3,7 @@ StartChar: similar
 Encoding: 8764 8764 397
 Width: 450
 VWidth: 545
-Flags: W
-HStem: 315 90<45 90 360 405>
+Flags: MW
 LayerCount: 2
 Fore
 SplineSet

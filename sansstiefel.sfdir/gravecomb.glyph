@@ -3,9 +3,10 @@ StartChar: gravecomb
 Encoding: 768 768 196
 Width: 270
 VWidth: 530
-Flags: W
-HStem: 585 180
+Flags: MW
+HStem: 585 90<210 240> 585 180 675 90<30 60>
 VStem: 30 210
+DStem2: 102 756 60 675 0.8 -0.6<15 135>
 LayerCount: 2
 Fore
 SplineSet
@@ -14,8 +15,8 @@ SplineSet
  75 765 l 2
  85 765 94 762 102 756 c 2
  210 675 l 1
- 240 675 l 1
- 240 585 l 1
+ 240 675 l 5
+ 240 585 l 5
  195 585 l 2
  185 585 176 588 168 594 c 2
  60 675 l 1

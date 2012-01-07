@@ -5,6 +5,7 @@ Width: 420
 VWidth: 545
 Flags: W
 HStem: 630 90<30 75 345 390>
+DStem2: 177 756 150 664 0.798968 -0.601374<33.7542 116.4>
 LayerCount: 2
 Fore
 Refer: 159 126 N 1 0 0 1 0 0 2

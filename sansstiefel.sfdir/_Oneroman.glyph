@@ -3,9 +3,7 @@ StartChar: Oneroman
 Encoding: 8544 8544 424
 Width: 330
 VWidth: 0
-Flags: W
-HStem: 0 90<45 120 210 285> 630 90<45 120 210 285>
-VStem: 45 240<0 90 630 720>
+Flags: MW
 LayerCount: 2
 Fore
 SplineSet

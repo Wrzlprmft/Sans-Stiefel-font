@@ -3,8 +3,9 @@ StartChar: three.superior
 Encoding: 179 179 225
 Width: 479
 VWidth: 0
-Flags: W
-HStem: 790 20G<235 246.5>
+Flags: MW
+HStem: 480 90<75 105> 630 90<75 105>
+DStem2: 105 720 147 639 0.8 0.6<0 101.4> 147 561 105 480 0.8 -0.6<15 116.4>
 LayerCount: 2
 Fore
 SplineSet

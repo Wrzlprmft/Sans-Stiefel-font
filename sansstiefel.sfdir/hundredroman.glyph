@@ -3,9 +3,7 @@ StartChar: hundredroman
 Encoding: 8573 8573 453
 Width: 450
 VWidth: 1076
-Flags: W
-HStem: 0 21<220 230> 405 90<353 390> 520 20<218.5 227.5>
-VStem: 60 90<158 382>
+Flags: HMW
 LayerCount: 2
 Fore
 Refer: 3 99 N 1 0 0 1 0 0 2

@@ -3,8 +3,7 @@ StartChar: infinity
 Encoding: 8734 8734 396
 Width: 840
 VWidth: 1076
-Flags: W
-HStem: 105 90<218 316 532 622> 345 90<218 308 524 622>
+Flags: MW
 LayerCount: 2
 Fore
 SplineSet

@@ -3,9 +3,7 @@ StartChar: Scircumflex.alt
 Encoding: 57373 57373 564
 Width: 615
 VWidth: 0
-Flags: W
-HStem: 0 90<224.262 352.72> 405 90<225 436.717> 675 90<518 555> 720 90<190.394 382> 869 90<165 195 465 495>
-VStem: 75 90<175.716 657.455> 465 90<125 378.404>
+Flags: HMW
 LayerCount: 2
 Fore
 Refer: 354 770 N 1 0 0 1 135 284 2

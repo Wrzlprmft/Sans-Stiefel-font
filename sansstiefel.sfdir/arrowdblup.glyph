@@ -3,9 +3,7 @@ StartChar: arrowdblup
 Encoding: 8657 8657 392
 Width: 645
 VWidth: 0
-Flags: W
-HStem: -180 21G<210 300 345 435> 518 21G<75 165 480 570> 790 20G<317 329>
-VStem: 210 90<-180 588> 345 90<-180 588>
+Flags: MW
 LayerCount: 2
 Fore
 SplineSet

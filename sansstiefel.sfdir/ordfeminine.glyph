@@ -3,9 +3,10 @@ StartChar: ordfeminine
 Encoding: 170 170 221
 Width: 480
 VWidth: 0
-Flags: W
-HStem: 790 20G<235 245.5>
+Flags: MW
+HStem: 390 90<405 435> 690 90<405 435>
 VStem: 75 90<547 653> 315 90<548 652>
+DStem2: 93 711 165 653 0.797581 0.603212<22.4395 116.038> 165 547 93 489 0.797581 -0.603212<0 93.5984>
 LayerCount: 2
 Fore
 SplineSet

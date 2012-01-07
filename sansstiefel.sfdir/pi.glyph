@@ -3,8 +3,9 @@ StartChar: pi
 Encoding: 960 960 584
 Width: 480
 VWidth: 0
-Flags: W
+Flags: MW
 HStem: 0 90<45 75 405 435> 405 90<45 75 165 315 405 435>
+VStem: 75 90<90 405> 315 90<90 405>
 LayerCount: 2
 Fore
 SplineSet

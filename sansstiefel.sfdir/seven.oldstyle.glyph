@@ -3,9 +3,7 @@ StartChar: seven.oldstyle
 Encoding: 57383 57383 575
 Width: 480
 VWidth: 1076
-Flags: W
-HStem: -180 21G<203 285> 450 90<75 306>
-VStem: 165 120<-162.624 -90>
+Flags: MW
 LayerCount: 2
 Fore
 SplineSet

@@ -3,8 +3,7 @@ StartChar: arrowleft
 Encoding: 8592 8592 388
 Width: 1080
 VWidth: 0
-Flags: W
-HStem: 240 90<199 1035> 512 20G<287 337>
+Flags: MW
 LayerCount: 2
 Fore
 SplineSet

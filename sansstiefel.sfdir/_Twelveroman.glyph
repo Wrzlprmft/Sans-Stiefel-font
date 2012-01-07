@@ -3,9 +3,7 @@ StartChar: Twelveroman
 Encoding: 8555 8555 435
 Width: 1080
 VWidth: 0
-Flags: W
-HStem: 0 90<45 125 231 459 565 630 720 870 960 1035> 630 90<45 125 231 459 565 630 720 870 960 1035>
-VStem: 630 90<90 630> 870 90<90 630>
+Flags: MW
 LayerCount: 2
 Fore
 SplineSet

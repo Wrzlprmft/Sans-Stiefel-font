@@ -3,9 +3,7 @@ StartChar: arrowdbldown
 Encoding: 8659 8659 394
 Width: 645
 VWidth: 0
-Flags: W
-HStem: -180 21G<316 328> 790 20G<210 300 345 435>
-VStem: 210 90<42 810> 345 90<42 810>
+Flags: MW
 LayerCount: 2
 Fore
 SplineSet

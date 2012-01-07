@@ -5,6 +5,7 @@ Width: 570
 VWidth: 1076
 Flags: W
 HStem: 0 90<45 77> 720 90<493 525>
+DStem2: 77 90 145 25 0.447728 0.89417<0 749.582>
 LayerCount: 2
 Fore
 SplineSet

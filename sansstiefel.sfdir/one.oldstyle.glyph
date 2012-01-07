@@ -3,9 +3,7 @@ StartChar: one.oldstyle
 Encoding: 57377 57377 569
 Width: 240
 VWidth: 1024
-Flags: W
-HStem: 0 21G<114 195> 520 20G<45 126>
-VStem: 45 120<450 526.622>
+Flags: MW
 LayerCount: 2
 Fore
 SplineSet

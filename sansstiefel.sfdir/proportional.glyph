@@ -3,8 +3,7 @@ StartChar: proportional
 Encoding: 8733 8733 399
 Width: 635
 VWidth: 1076
-Flags: W
-HStem: 165 90<233 331 547 590> 405 90<233 323 539 590>
+Flags: MW
 LayerCount: 2
 Fore
 SplineSet

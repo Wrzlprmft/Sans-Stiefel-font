@@ -3,9 +3,7 @@ StartChar: I.antiqua
 Encoding: 57433 57433 559
 Width: 375
 VWidth: 2167
-Flags: W
-HStem: 0 90<45 75 300 330> 720 90<45 75 300 330>
-VStem: 45 120<13.3779 90 720 796.622> 210 120<13.3779 90 720 796.622>
+Flags: MW
 LayerCount: 2
 Fore
 SplineSet

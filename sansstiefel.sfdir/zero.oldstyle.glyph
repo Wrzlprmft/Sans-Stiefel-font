@@ -3,9 +3,7 @@ StartChar: zero.oldstyle
 Encoding: 57376 57376 568
 Width: 480
 VWidth: 1076
-Flags: W
-HStem: 0 21G<235 245> 520 20G<235 246.5>
-VStem: 75 90<158 382> 315 90<158 382>
+Flags: MW
 LayerCount: 2
 Fore
 SplineSet

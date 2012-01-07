@@ -3,9 +3,10 @@ StartChar: six.superior
 Encoding: 8310 8310 461
 Width: 480
 VWidth: 0
-Flags: W
-HStem: 790 20G<235 246.5>
+Flags: MW
+HStem: 630 90<375 405>
 VStem: 75 90<615 652>
+DStem2: 93 711 165 652 0.8 0.6<22.2 116.4> 267 801 240 709 0.8 -0.6<33.6 135> 267 651 240 559 0.8 -0.6<33.6 90>
 LayerCount: 2
 Fore
 SplineSet

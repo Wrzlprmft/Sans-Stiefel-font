@@ -3,9 +3,8 @@ StartChar: multiply
 Encoding: 215 215 151
 Width: 450
 VWidth: 1076
-Flags: W
-HStem: 201 318
-VStem: 66 318
+Flags: MW
+DStem2: 130 519 66 455 0.707107 -0.707107<0 134.35 224.86 359.21> 66 265 130 201 0.707107 0.707107<0 134.35 224.86 359.21>
 LayerCount: 2
 Fore
 SplineSet
