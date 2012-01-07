@@ -1,0 +1,191 @@
+\documentclass[a4paper, 17pt, onecolumn]{extarticle}
+
+\usepackage{xltxtra}
+
+\usepackage{array, calc, color, enumitem, graphicx, graphics, hyphenat, icomma, ngerman, relsize, tabularx, tikz, xifthen, xspace}
+
+\setromanfont[Mapping=tex-text]{Ubuntu}
+\setsansfont[Mapping=tex-text, Scale=MatchLowercase]{Sans Stiefel}
+\setmonofont[Scale=MatchLowercase]{DejaVu Sans Mono}
+\setlogokern{eL}{-0.075em} 
+\setlogokern{La}{-0.3em}
+\setlogokern{aT}{-0.075em}
+\setlogokern{Te}{-0.225em}
+
+
+\usepackage{polyglossia}
+\setdefaultlanguage[variant=uk, ordinalmonthday=true]{english}
+
+\usepackage[colorlinks=true, linkcolor=black, citecolor=black, urlcolor=black]{hyperref}
+
+
+% ----Seite einstellen----
+\setlength{\textwidth}{17 cm}
+\setlength{\hoffset}{-1 in}
+\setlength{\oddsidemargin}{2 cm}
+
+\setlength{\voffset}{-1 in}
+\setlength{\topmargin}{1.6 cm}
+\setlength{\headsep}{0 pt}
+\setlength{\headheight}{0 pt}
+\setlength{\textheight}{26.5 cm}
+
+\pagestyle{plain}
+
+
+% ----Textsatzregeln----
+\hyphenpenalty=500
+\pretolerance=150
+\tolerance=1500
+\setlength{\emergencystretch}{\textwidth}
+\frenchspacing
+\renewcommand{\/}{\ZWNJhyp{}}
+
+
+% ----Für Tabellen----
+\newcolumntype{C}{>{\centering\arraybackslash}X}
+\renewcommand{\arraystretch}{1.3}
+
+
+% ----Hilfsbefehle----
+\newlength{\lw}
+\newenvironment{Kasten}[2][2pt]{%
+	\begin{center}
+		\setlength{\lw}{#1}%
+		\begin{tikzpicture}[line width=\lw, line join=round]%
+			\node [inner sep=3\lw, text width=#2-10\lw]%
+				(BOXCONTENT)%
+				\bgroup\ignorespaces%
+}{
+				\egroup;
+			\draw ([xshift=-\lw]BOXCONTENT.north west) -- ([xshift=\lw]BOXCONTENT.north east);
+			\draw ([xshift=-\lw]BOXCONTENT.south west) -- ([xshift=\lw]BOXCONTENT.south east);
+			\draw ([xshift=-\lw, yshift=-2\lw]BOXCONTENT.north west) -- ++(\lw,0) -- ([yshift=2\lw]BOXCONTENT.south west) -- ++(-\lw,0);
+			\draw ([xshift=\lw, yshift=-2\lw]BOXCONTENT.north east) -- ++(-\lw,0) -- ([yshift=2\lw]BOXCONTENT.south east) -- ++(+\lw,0);
+		\end{tikzpicture}
+	\end{center}
+}
+
+\newcommand{\Beispiel}[2][]{%
+\normalsize%
+\ifthenelse{\isempty{#1}}{\verb⚥#2⚥}{\ifthenelse{\isin{=}{#1}}{\verb⚥#1⚥}{#1}}%
+\strut\linebreak\sffamily\LARGE\strut%
+\ifthenelse{\isin{=}{#1}}{\addfontfeature{#1}}{}#2%
+}
+
+
+% ----Metadata----
+\title{Sans Stiefel}
+\author{Gerrit Ansmann}
+\date{\today}
+
+% ------------------------------------------
+
+\begin{document}
+
+\hyphenation{Schaft-ſtie-fel-gro-tesk Schaft-ſtie-fel-gro-tes-ken}
+
+\begin{Kasten}[4pt]{0.65\linewidth}
+	\centering
+	\textlarger[4]{\fontspec[LetterSpace=15.0]{Sans Stiefel}\textbf{Sans }\addfontfeature{CharacterVariant=1:1} \textbf{ Stiefel}}\\[\baselineskip]
+	\textlarger[1]{OpenType features \linebreak with examples for {\addfontfeature{StylisticSet=1} \XeLaTeX}}\\[\baselineskip]	
+	Gerrit Ansmann, \today
+
+\end{Kasten}
+
+
+\begin{center}\footnotesize\textsf{
+Eine deutſche Verſion dieſer Dokumentation findet ſich unter:} \\\url{https://github.com/Wrzlprmft/Sans-Stiefel-font}
+\end{center}
+
+
+
+\noindent This font tries to answer how blackletter fonts could have developed, had they not been abolished in 1941.
+My motivation for naming this font ‘Sans Stiefel’ (without boots) involves a lot of subtleties of the German language.
+Explaining those in English would require an essay; therefore I will only give a synopsis here (for more details see the German documentation):
+
+First, despite sharing the design approach, it is not a ‘Schaft\/\textit{stiefel}\/grotesk’, a kind of typeface commonly associated with the Nazis.
+I do not want to discuss the validity of this association, but for those who consider typefaces, ideologies and footgear to be connected to each other, I would like this font to be understood disconnected from whatever ideology they connect to boots.
+
+\section{Characters}
+Sans Stiefel provides all characters from the Unicode block ‘Basic Latin’ and almost all from the blocks ‘Latin"~1 Supplement’, ‘Latin Extended"~A’ and ‘Number Forms’. Additionally approximately half the characters from ‘General Punctuation’, super- and subscript numbers and some not utterly rare characters like
+\textsf{€}, \textsf{№}, \textsf{℗}, \textsf{℠}, \textsf{™}, \textsf{ℓ}, \textsf{μ}, \textsf{π}, \textsf{ꝛ}, \textsf{→}, \textsf{⇒}, \textsf{∓}, \textsf{∝}, \textsf{∞}, \textsf{≈}, \textsf{∼}, \textsf{≡}, \textsf{≫}, \textsf{≥} or \textsf{⊥} are provided.
+
+\section{OpenType features}
+If there is an obvious mismatch between example and source code on the following pages, the latter is a fontspec setting and, for example, can be issued as an argument to \texttt{\textbackslash addfontfeature}.
+
+\subsection{Ligatures and contextuals}
+By default, 55~ligatures are switched on, containing:
+\begin{itemize}[itemsep = 0pt, parsep=\fill]
+	\item ligatures commonly used in German such as \textsf{ch}, \textsf{ck}, \textsf{Ch}, \textsf{ff}, \textsf{fi}, \textsf{ft}, \textsf{kt}, \textsf{rz}, \textsf{ſi}, \textsf{ſſ}, \textsf{ſt}, \textsf{tt}, \textsf{tz} or \textsf{Th},
+	\item rare ligatures like \textsf{ct}, \textsf{fj}, \textsf{kk}, \textsf{rꝛ}, \textsf{ſk} or \textsf{ſl},
+	\item ligatures, which are most likely only used by names and made-up words, for example \textsf{fh}, \textsf{fk}, \textsf{ftz} and \textsf{Tl},
+	\item ligatures intended for use in languages other than German, such as (Old) English, Icelandic or Dutch, for example \textsf{ſh}, \textsf{fþ}, \textsf{fð} and \textsf{ſĳ},
+	\item ligatures intended for use with other long-s conventions (than the German one), such as \textsf{ſſb},
+	\item finally some ligatures for which even I do not know a use, such as \textsf{ſtz}.
+\end{itemize}
+All these ligatures are realized via the OpenType feature \texttt{liga} and can be switched off by issuing \texttt{Ligatures=NoCommon} to fontspec (not recommended):
+\begin{Kasten}{0.9\linewidth}
+	\begin{tabularx}{\linewidth}{C C}
+		\Beispiel[default]{offenſichtlich Schmerzmittel Charakterſtück}& \Beispiel[Ligatures=NoCommon]{offenſichtlich Schmerzmittel Charakterſtück}
+	\end{tabularx}
+\end{Kasten}
+
+To suppress individual ligatures, I recommend using a zero-width non-joiner (ZWNJ, \verb⚥\/⚥ in the examples):
+\begin{Kasten}{0.85\linewidth}
+	\begin{tabularx}{\linewidth}{C C}
+		\Beispiel{Ur\/zeit\/tier} & \Beispiel{Urzeittier}\\
+		\Beispiel{break\/through} & \Beispiel{breakthrough}
+	\end{tabularx}
+\end{Kasten}
+
+In blackletter typesetting, increasing letter-spacing is a standard way of emphasizing text, whereas using a bold or italic typeface is not.
+Since in German the ligatures \textsf{ch}, \textsf{ck}, \textsf{ſt} and~\textsf{tz} are the only ones that are not ‘disconnected’ when letter-spacing is increased, they are also contained in the OpenType feature \texttt{rlig}.
+Exploiting this, proper increased letter-spacing can be realized with the following command:
+\begin{verbatim}
+\renewcommand{\bfseries}{  \xspace \addfontfeature
+     { LetterSpace = 15.0, WordSpace = 1.5,
+       Ligatures = {Required, NoCommon} }   } 
+\end{verbatim}
+
+Finally there is a short variant of \textsf{ſ} for cases when it is followed by a nearly-colliding letter like \textsf{ä} and neither a ligature nor positive kerning are feasible:
+\begin{Kasten}{0.55\linewidth}
+	\begin{tabularx}{\linewidth}{C C}
+		\Beispiel{ſüffiſant} & \Beispiel{ſ\/üffiſant}
+	\end{tabularx}
+\end{Kasten}
+
+\subsection{Roman-type capital letters}
+Successive, blackletter-type capital letters are ugly and difficult to read, which is why they are usually replaced by roman types. Sans Stiefel, however, comes with its own set of roman-type alternatives of the capital letters used in German (\textsf{A–Z}, \textsf{Ä}, \textsf{Ö}, \textsf{Ü}, \textsf{ẞ}). These are automatically used whenever two capital letters follow one another. Additionally, they can be accessed manually via the OpenType feature \texttt{ss01}:
+\begin{Kasten}{0.9\linewidth}
+	\begin{tabularx}{\linewidth}{>{\hsize=.75\hsize}C >{\hsize=1.25\hsize}C}
+		\Beispiel{CAPITALS} &\Beispiel{C\/A\/P\/I\/T\/A\/L\/S} \\
+		\Beispiel[default]{XeLaTeX} & \Beispiel[StylisticSet=1]{XeLaTeX}
+	\end{tabularx}
+\end{Kasten}
+ 
+\subsection{Numbers}
+The OpenType features \texttt{onum} and \texttt{tnum} activate lowercase and monospace numbers, respectively. The latter, however, only affects the number one.
+\begin{Kasten}{\linewidth}
+	\begin{tabularx}{\linewidth}{lCC}
+		\verb⚥Numbers=⚥&
+		\verb⚥Proportional⚥ &
+		\verb⚥Monospaced⚥ \\[0.3\baselineskip]
+		\verb⚥Lining⚥ &
+		\huge\sffamily 0123456789 &
+		{\huge\sffamily \addfontfeature{Numbers=Monospaced} 0123456789} \\[0.3\baselineskip]
+		\verb⚥OldStyle⚥ &
+		{\huge\sffamily \addfontfeature{Numbers=OldStyle} 0123456789} &
+		{\huge\sffamily \addfontfeature{Numbers={Monospaced, OldStyle}} 0123456789}
+	\end{tabularx}
+\end{Kasten}
+
+\subsection{alternative S}
+There is a variant of the letter \textsf{S}, which can be accessed via the OpenType feature \texttt{cv01}:
+\begin{Kasten}{0.75\linewidth}
+	\begin{tabularx}{\linewidth}{>{\hsize=.7\hsize}C >{\hsize=1.3\hsize}C}
+		\Beispiel[default]{SŚŜŠŞ} & \Beispiel[CharacterVariant=1:1]{SŚŜŠŞ}
+	\end{tabularx}
+\end{Kasten}
+
+\end{document}
