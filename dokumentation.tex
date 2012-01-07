@@ -92,7 +92,9 @@
 
 \end{Kasten}
 
-\vfill
+\begin{center}\footnotesize\textsf{
+For an English version of this documentation, visit:} \\\url{https://github.com/Wrzlprmft/Sans-Stiefel-font}
+\end{center}
 
 \noindent Dieſe Schrift iſt ein Verſuch, die Frage zu beantworten, wie ſich die gebrochenen Schriften hätten weiterentwickeln können, wären ſie nicht 1941 abgeſchafft worden.
 Sie befindet ſich irgendwo zwiſchen einer Fraktur und einer Grotesken (genauer geſagt einer Egyptienne) und ordnet ſich damit in die gebrochenen Grotesken ein.
@@ -102,13 +104,20 @@ Ich habe die vorliegende Schrift Sans Stiefel (»ohne Stiefel«) genannt, da tro
 Wer darauf beſteht, Schriften, Schuhwerk und Ideologien miteinander zu aſſoziieren, darf den Namen gerne auch als Distanzierung von mit Stiefeln aſſoziierten Ideologien auf\/faſſen.
 
 
-
 \section{Enthaltene Zeichen}
 Sans Stiefel enthält den Unicode-Bereich \textsf{Basic Latin} vollſtändig ſowie bis auf wenige Ausnahmen die Bereiche \textsf{Latin"~1 Supplement}, \textsf{Latin Extended"~A} und \textsf{Number Forms}.
 Außerdem ſind ungefähr die Hälfte der Zeichen aus \textsf{General Punctuation}, hoch- und tiefgeſtellte Ziffern ſowie einige weitere nicht allzu ſelten auf\/tauchende Zeichen wie €, №, ℗, ℠, ™, ℓ, μ, π, ꝛ, →, ⇒, ∓, ∝, ∞, ≈, ∼, ≡, ≫, ≥ oder ⊥ enthalten.
 
 \section{OpenType-Funktionen}
 Wenn bei den Beiſpielen auf den folgenden Seiten der Quelltext nicht offenſichtlich mit dem Beiſpiel korreſpondiert, ſo iſt er als \textsf{fontspec}-Einſtellung zu verſtehen und kann z.\,B. als Argument an \texttt{\textbackslash addfontfeature} übergeben werden.
+
+\subsection{alternatives S}
+Mit dem OpenType-Feature \texttt{cv01} iſt eine alternative Form des S verknüpft:
+\begin{Kasten}{0.75\linewidth}
+	\begin{tabularx}{\linewidth}{>{\hsize=.7\hsize}C >{\hsize=1.3\hsize}C}
+		\Beispiel[Standard]{SŚŜŠŞ} & \Beispiel[CharacterVariant=1:1]{SŚŜŠŞ}
+	\end{tabularx}
+\end{Kasten}
 
 \subsection{Ligaturen und Kontextabhängiges}
 In Sans Stiefel ſind zur Zeit 55~Ligaturen ſtandardmäßig aktiviert. Hier\/zu zählen:
@@ -146,14 +155,6 @@ Die Ligaturen ch, ck, ſt und tz ſind zuſätzlich mit dem OpenType-Feature \te
 \begin{Kasten}{0.55\linewidth}
 	\begin{tabularx}{\linewidth}{C C}
 		\Beispiel{ſüffiſant} & \Beispiel{ſ\/üffiſant}
-	\end{tabularx}
-\end{Kasten}
-
-\subsection{alternatives S}
-Mit dem OpenType-Feature \texttt{cv01} iſt eine alternative Form des S verknüpft:
-\begin{Kasten}{0.75\linewidth}
-	\begin{tabularx}{\linewidth}{>{\hsize=.7\hsize}C >{\hsize=1.3\hsize}C}
-		\Beispiel[Standard]{SŚŜŠŞ} & \Beispiel[CharacterVariant=1:1]{SŚŜŠŞ}
 	\end{tabularx}
 \end{Kasten}
 
